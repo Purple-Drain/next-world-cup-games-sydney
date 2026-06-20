@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Next World Cup Games</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>">
+    <link rel="manifest" href='data:application/json,%7B"name":"Next%20World%20Cup%20Games","short_name":"WorldCup2026","start_url":"./index.html","display":"standalone","background_color":"%230f172a","theme_color":"%230f172a"%7D'>
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         // Theme Persistence Logic
@@ -121,7 +124,7 @@
                 tr.className = `${rowClass} hover:bg-indigo-50/30 dark:hover:bg-indigo-900/20 transition-colors duration-200 cursor-default`;
                 tr.id = `match-row-${index}`;
                 tr.innerHTML = `
-                    <td class="p-5 font-medium text-slate-700 dark:text-slate-300">${match.datetime.split('-')[1].trim()}</td>
+                    <td class="p-5 font-medium">${match.datetime.split('-')[1].trim()}</td>
                     <td class="p-5 font-mono text-indigo-600 dark:text-indigo-400 countdown" data-time="${match.iso}">--</td>
                     <td class="p-5 font-bold">${match.fixture}</td>
                     <td class="p-5">${broadcastHtml}</td>
