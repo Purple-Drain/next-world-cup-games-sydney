@@ -77,13 +77,31 @@
             { datetime: "28 June 2026 - 12:00 AEST", fixture: "Jordan v Argentina", broadcast: "BBC" }
         ];
 
-        function renderSchedule() {
+                function renderSchedule() {
             const desktopContainer = document.getElementById('desktop-schedule');
             const mobileContainer = document.getElementById('mobile-schedule');
 
             matches.forEach(match => {
-                // Determine badge colors based on broadcast
-                const badgeColor = match.broadcast === 'BBC' ? 'bg-pink-100 text-pink-800' : 'bg-teal-100 text-teal-800';
+                // Draw the actual brand logos using Tailwind CSS
+                let broadcastHtml = '';
+                
+                if (match.broadcast === 'BBC') {
+                    // Recreating the 3-block BBC logo
+                    broadcastHtml = `
+                        <div class="inline-flex gap-[2px] shadow-sm">
+                            <span class="bg-black text-white font-bold text-[10px] px-1.5 py-0.5">B</span>
+                            <span class="bg-black text-white font-bold text-[10px] px-1.5 py-0.5">B</span>
+                            <span class="bg-black text-white font-bold text-[10px] px-1.5 py-0.5">C</span>
+                        </div>
+                    `;
+                } else {
+                    // Recreating the ITV color gradient pill
+                    broadcastHtml = `
+                        <span class="bg-gradient-to-r from-cyan-500 to-blue-700 text-white px-3 py-0.5 rounded-full text-[11px] font-bold tracking-wide shadow-sm">
+                            ITV
+                        </span>
+                    `;
+                }
 
                 // Render Desktop Row
                 const tr = document.createElement('tr');
@@ -91,8 +109,8 @@
                 tr.innerHTML = `
                     <td class="p-5 text-sm font-medium text-slate-700">${match.datetime}</td>
                     <td class="p-5 text-sm font-bold text-slate-900">${match.fixture}</td>
-                    <td class="p-5 text-sm text-right">
-                        <span class="${badgeColor} px-2.5 py-1 rounded-md text-xs font-bold tracking-wide shadow-sm">${match.broadcast}</span>
+                    <td class="p-5 text-sm text-right flex justify-end items-center h-full pt-4">
+                        ${broadcastHtml}
                     </td>
                 `;
                 desktopContainer.appendChild(tr);
@@ -101,15 +119,16 @@
                 const card = document.createElement('div');
                 card.className = "bg-white shadow-sm hover:shadow-md transition-shadow duration-200 rounded-xl p-5 border border-slate-200 flex flex-col gap-3";
                 card.innerHTML = `
-                    <div class="flex justify-between items-start">
+                    <div class="flex justify-between items-center">
                         <span class="text-sm font-semibold text-slate-500">${match.datetime}</span>
-                        <span class="text-xs font-bold ${badgeColor} px-2.5 py-1 rounded-md shadow-sm">${match.broadcast}</span>
+                        ${broadcastHtml}
                     </div>
                     <h3 class="text-lg font-extrabold text-slate-900 tracking-tight">${match.fixture}</h3>
                 `;
                 mobileContainer.appendChild(card);
             });
         }
+
 
         renderSchedule();
     </script>
