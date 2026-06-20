@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next World Cup Games</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased p-4 md:p-8">
+
+    <div class="max-w-5xl mx-auto">
+        <header class="mb-8 rounded-2xl bg-gradient-to-r from-indigo-900 to-blue-800 p-8 text-center md:text-left shadow-lg">
+            <h1 class="text-3xl md:text-4xl font-extrabold text-white tracking-tight">Next World Cup Games</h1>
+            <p class="text-indigo-200 mt-2 font-medium text-sm md:text-base">Spoiler-free schedule • Sydney Time (AEST) • UK Broadcasts</p>
+        </header>
+
+        <div class="hidden md:block bg-white shadow-md rounded-xl overflow-hidden border border-slate-200">
+            <table class="w-full text-left border-collapse">
+                <thead>
+                    <tr class="bg-slate-100 border-b border-slate-200 text-xs uppercase tracking-wider text-slate-500">
+                        <th class="p-5 font-semibold">Date & Time (AEST)</th>
+                        <th class="p-5 font-semibold">Fixture</th>
+                        <th class="p-5 font-semibold text-right">UK Broadcast</th>
+                    </tr>
+                </thead>
+                <tbody id="desktop-schedule" class="divide-y divide-slate-100">
+                    </tbody>
+            </table>
+        </div>
+
+        <div id="mobile-schedule" class="md:hidden space-y-4">
+            </div>
+    </div>
+
+    <script>
+        // Factual 2026 World Cup matches translated to AEST (+9 hrs from BST)
+        const matches = [
+            { datetime: "21 June 2026 - 03:00 AEST", fixture: "Netherlands v Sweden", broadcast: "BBC" },
+            { datetime: "21 June 2026 - 06:00 AEST", fixture: "Germany v Ivory Coast", broadcast: "ITV" },
+            { datetime: "21 June 2026 - 10:00 AEST", fixture: "Curacao v Ecuador", broadcast: "BBC" },
+            { datetime: "21 June 2026 - 14:00 AEST", fixture: "Japan v Tunisia", broadcast: "BBC" },
+            { datetime: "22 June 2026 - 02:00 AEST", fixture: "Spain v Saudi Arabia", broadcast: "BBC" },
+            { datetime: "22 June 2026 - 05:00 AEST", fixture: "Belgium v Iran", broadcast: "ITV" },
+            { datetime: "22 June 2026 - 08:00 AEST", fixture: "Cape Verde v Uruguay", broadcast: "BBC" },
+            { datetime: "22 June 2026 - 11:00 AEST", fixture: "Egypt v New Zealand", broadcast: "ITV" },
+            { datetime: "23 June 2026 - 03:00 AEST", fixture: "Argentina v Austria", broadcast: "BBC" },
+            { datetime: "23 June 2026 - 07:00 AEST", fixture: "France v Iraq", broadcast: "BBC" },
+            { datetime: "23 June 2026 - 10:00 AEST", fixture: "Senegal v Norway", broadcast: "ITV" },
+            { datetime: "23 June 2026 - 13:00 AEST", fixture: "Algeria v Jordan", broadcast: "ITV" },
+            { datetime: "24 June 2026 - 03:00 AEST", fixture: "Portugal v Uzbekistan", broadcast: "ITV" },
+            { datetime: "24 June 2026 - 06:00 AEST", fixture: "England v Ghana", broadcast: "BBC" },
+            { datetime: "24 June 2026 - 09:00 AEST", fixture: "Croatia v Panama", broadcast: "BBC" },
+            { datetime: "24 June 2026 - 12:00 AEST", fixture: "Colombia v DR Congo", broadcast: "ITV" },
+            { datetime: "25 June 2026 - 05:00 AEST", fixture: "Canada v Switzerland", broadcast: "ITV" },
+            { datetime: "25 June 2026 - 05:00 AEST", fixture: "Bosnia-Herzegovina v Qatar", broadcast: "ITV" },
+            { datetime: "25 June 2026 - 08:00 AEST", fixture: "Scotland v Brazil", broadcast: "BBC" },
+            { datetime: "25 June 2026 - 08:00 AEST", fixture: "Morocco v Haiti", broadcast: "BBC" },
+            { datetime: "25 June 2026 - 11:00 AEST", fixture: "Czech Republic v Mexico", broadcast: "BBC" },
+            { datetime: "25 June 2026 - 11:00 AEST", fixture: "South Africa v South Korea", broadcast: "BBC" },
+            { datetime: "26 June 2026 - 06:00 AEST", fixture: "Ecuador v Germany", broadcast: "BBC" },
+            { datetime: "26 June 2026 - 06:00 AEST", fixture: "Curacao v Ivory Coast", broadcast: "BBC" },
+            { datetime: "26 June 2026 - 09:00 AEST", fixture: "Japan v Sweden", broadcast: "BBC" },
+            { datetime: "26 June 2026 - 09:00 AEST", fixture: "Tunisia v Netherlands", broadcast: "BBC" },
+            { datetime: "26 June 2026 - 12:00 AEST", fixture: "Turkey v USA", broadcast: "ITV" },
+            { datetime: "26 June 2026 - 12:00 AEST", fixture: "Paraguay v Australia", broadcast: "ITV" },
+            { datetime: "27 June 2026 - 05:00 AEST", fixture: "Norway v France", broadcast: "ITV" },
+            { datetime: "27 June 2026 - 05:00 AEST", fixture: "Senegal v Iraq", broadcast: "ITV" },
+            { datetime: "27 June 2026 - 10:00 AEST", fixture: "Cape Verde v Saudi Arabia", broadcast: "ITV" },
+            { datetime: "27 June 2026 - 10:00 AEST", fixture: "Uruguay v Spain", broadcast: "ITV" },
+            { datetime: "27 June 2026 - 13:00 AEST", fixture: "Egypt v Iran", broadcast: "BBC" },
+            { datetime: "27 June 2026 - 13:00 AEST", fixture: "New Zealand v Belgium", broadcast: "BBC" },
+            { datetime: "28 June 2026 - 07:00 AEST", fixture: "Panama v England", broadcast: "ITV" },
+            { datetime: "28 June 2026 - 07:00 AEST", fixture: "Croatia v Ghana", broadcast: "ITV" },
+            { datetime: "28 June 2026 - 09:30 AEST", fixture: "Colombia v Portugal", broadcast: "BBC" },
+            { datetime: "28 June 2026 - 09:30 AEST", fixture: "DR Congo v Uzbekistan", broadcast: "BBC" },
+            { datetime: "28 June 2026 - 12:00 AEST", fixture: "Algeria v Austria", broadcast: "BBC" },
+            { datetime: "28 June 2026 - 12:00 AEST", fixture: "Jordan v Argentina", broadcast: "BBC" }
+        ];
+
+        function renderSchedule() {
+            const desktopContainer = document.getElementById('desktop-schedule');
+            const mobileContainer = document.getElementById('mobile-schedule');
+
+            matches.forEach(match => {
+                // Determine badge colors based on broadcast
+                const badgeColor = match.broadcast === 'BBC' ? 'bg-pink-100 text-pink-800' : 'bg-teal-100 text-teal-800';
+
+                // Render Desktop Row
+                const tr = document.createElement('tr');
+                tr.className = "hover:bg-indigo-50/50 transition-colors duration-200 cursor-default";
+                tr.innerHTML = `
+                    <td class="p-5 text-sm font-medium text-slate-700">${match.datetime}</td>
+                    <td class="p-5 text-sm font-bold text-slate-900">${match.fixture}</td>
+                    <td class="p-5 text-sm text-right">
+                        <span class="${badgeColor} px-2.5 py-1 rounded-md text-xs font-bold tracking-wide shadow-sm">${match.broadcast}</span>
+                    </td>
+                `;
+                desktopContainer.appendChild(tr);
+
+                // Render Mobile Card
+                const card = document.createElement('div');
+                card.className = "bg-white shadow-sm hover:shadow-md transition-shadow duration-200 rounded-xl p-5 border border-slate-200 flex flex-col gap-3";
+                card.innerHTML = `
+                    <div class="flex justify-between items-start">
+                        <span class="text-sm font-semibold text-slate-500">${match.datetime}</span>
+                        <span class="text-xs font-bold ${badgeColor} px-2.5 py-1 rounded-md shadow-sm">${match.broadcast}</span>
+                    </div>
+                    <h3 class="text-lg font-extrabold text-slate-900 tracking-tight">${match.fixture}</h3>
+                `;
+                mobileContainer.appendChild(card);
+            });
+        }
+
+        renderSchedule();
+    </script>
+</body>
+</html>
