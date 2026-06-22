@@ -89,15 +89,27 @@
             { iso: "2026-06-28T12:00:00", dateStr: "28 June", datetime: "28 June - 12:00 AEST", fixture: "🇯🇴 Jordan v Argentina 🇦🇷", broadcast: "BBC" }
         ];
 
+        function updateThemeIcon() {
+            document.getElementById('theme-icon').textContent =
+                document.documentElement.classList.contains('dark') ? '🌙' : '☀️';
+        }
+
         function toggleTheme() {
             document.documentElement.classList.toggle('dark');
             localStorage.theme = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
+            updateThemeIcon();
         }
 
         const MATCH_DURATION_MINS = 120; // estimated incl. halftime/stoppage
 
+        // iso strings have no offset, so anchor them to AEST (UTC+10, no DST
+        // in June) instead of letting Date parse them in the viewer's local zone.
+        function parseAEST(iso) {
+            return new Date(`${iso}+10:00`);
+        }
+
         function getMatchEnd(iso) {
-            return new Date(new Date(iso).getTime() + MATCH_DURATION_MINS * 60000);
+            return new Date(parseAEST(iso).getTime() + MATCH_DURATION_MINS * 60000);
         }
 
         const STATUS_COLORS = {
@@ -109,7 +121,7 @@
 
         function getStatusInfo(iso) {
             const now = new Date();
-            const start = new Date(iso);
+            const start = parseAEST(iso);
             const end = getMatchEnd(iso);
 
             if (now < start) {
@@ -138,8 +150,8 @@
                 const rowClass = (dateIndex % 2 === 0) ? 'bg-white dark:bg-slate-800' : 'bg-slate-200/70 dark:bg-slate-900/50';
                 
                 // Get the Day of the Week
-                const dateObj = new Date(match.iso);
-                const dayName = dateObj.toLocaleDateString('en-AU', { weekday: 'short' });
+                const dateObj = parseAEST(match.iso);
+                const dayName = dateObj.toLocaleDateString('en-AU', { weekday: 'short', timeZone: 'Australia/Sydney' });
 
                 let broadcastHtml = (match.broadcast === 'BBC') 
                     ? `<div class="inline-flex gap-[3px] shadow-sm"><span class="bg-black text-white font-bold text-lg px-2 py-1">B</span><span class="bg-black text-white font-bold text-lg px-2 py-1">B</span><span class="bg-black text-white font-bold text-lg px-2 py-1">C</span></div>`
@@ -187,6 +199,7 @@
             });
         }
 
+        updateThemeIcon();
         renderSchedule();
         updateCountdowns();
         setInterval(updateCountdowns, 60000);
