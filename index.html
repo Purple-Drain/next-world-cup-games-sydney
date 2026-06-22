@@ -33,7 +33,7 @@
                 <thead>
                     <tr class="bg-slate-100 dark:bg-slate-900 border-b border-slate-200 dark:border-slate-700 text-xs uppercase text-slate-500 dark:text-slate-400">
                         <th class="p-5">Start Time</th>
-                        <th class="p-5">Time to Start</th>
+                        <th class="p-5">Status</th>
                         <th class="p-5">Fixture</th>
                         <th class="p-5 text-left">Broadcast</th>
                     </tr>
@@ -94,26 +94,41 @@
             localStorage.theme = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
         }
 
+        const MATCH_DURATION_MINS = 120; // estimated incl. halftime/stoppage
+
+        function getMatchEnd(iso) {
+            return new Date(new Date(iso).getTime() + MATCH_DURATION_MINS * 60000);
+        }
+
         function getCountdown(iso) {
             const now = new Date();
-            const target = new Date(iso);
-            const diff = target - now;
-            if (diff <= 0) return "Started/Finished";
-            const hours = Math.floor(diff / 3600000);
-            const mins = Math.floor((diff % 3600000) / 60000);
-            return `${hours}h ${mins}m to go`;
+            const start = new Date(iso);
+            const end = getMatchEnd(iso);
+
+            if (now < start) {
+                const diff = start - now;
+                const hours = Math.floor(diff / 3600000);
+                const mins = Math.floor((diff % 3600000) / 60000);
+                return `${hours}h ${mins}m to go`;
+            }
+            if (now < end) {
+                const mins = Math.max(0, Math.floor((end - now) / 60000));
+                return `🔴 Live · ~${mins}m left`;
+            }
+            return "Finished (FT)";
         }
 
         function renderSchedule() {
             const desktop = document.getElementById('desktop-schedule');
             const mobile = document.getElementById('mobile-schedule');
-            const targetDateStr = "21 June"; 
-            let hasScrolled = false;
+            const now = new Date();
+            let scrollIndex = matches.findIndex(m => getMatchEnd(m.iso) > now);
+            if (scrollIndex === -1) scrollIndex = matches.length - 1;
             let uniqueDates = [...new Set(matches.map(m => m.dateStr))];
 
             matches.forEach((match, index) => {
                 let dateIndex = uniqueDates.indexOf(match.dateStr);
-                const rowClass = (dateIndex % 2 === 0) ? 'bg-white dark:bg-slate-800' : 'bg-slate-50/80 dark:bg-slate-900/50';
+                const rowClass = (dateIndex % 2 === 0) ? 'bg-white dark:bg-slate-800' : 'bg-slate-200/70 dark:bg-slate-900/50';
                 
                 // Get the Day of the Week
                 const dateObj = new Date(match.iso);
@@ -147,12 +162,11 @@
                 `;
                 mobile.appendChild(card);
 
-                if (match.dateStr === targetDateStr && !hasScrolled) {
+                if (index === scrollIndex) {
                     setTimeout(() => {
                         const el = document.getElementById(window.innerWidth < 768 ? `match-card-${index}` : `match-row-${index}`);
                         if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
                     }, 300);
-                    hasScrolled = true;
                 }
             });
         }
