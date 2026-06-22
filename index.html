@@ -128,7 +128,7 @@
 
             matches.forEach((match, index) => {
                 let dateIndex = uniqueDates.indexOf(match.dateStr);
-                const rowClass = (dateIndex % 2 === 0) ? 'bg-white dark:bg-slate-800' : 'bg-slate-50/80 dark:bg-slate-900/50';
+                const rowClass = (dateIndex % 2 === 0) ? 'bg-white dark:bg-slate-800' : 'bg-slate-200/70 dark:bg-slate-900/50';
                 
                 // Get the Day of the Week
                 const dateObj = new Date(match.iso);
