@@ -100,7 +100,14 @@
             return new Date(new Date(iso).getTime() + MATCH_DURATION_MINS * 60000);
         }
 
-        function getCountdown(iso) {
+        const STATUS_COLORS = {
+            upcoming: ['text-indigo-600', 'dark:text-indigo-400'],
+            live: ['text-red-600', 'dark:text-red-400', 'font-semibold'],
+            finished: ['text-slate-400', 'dark:text-slate-500']
+        };
+        const ALL_STATUS_COLOR_CLASSES = Object.values(STATUS_COLORS).flat();
+
+        function getStatusInfo(iso) {
             const now = new Date();
             const start = new Date(iso);
             const end = getMatchEnd(iso);
@@ -109,13 +116,13 @@
                 const diff = start - now;
                 const hours = Math.floor(diff / 3600000);
                 const mins = Math.floor((diff % 3600000) / 60000);
-                return `${hours}h ${mins}m to go`;
+                return { text: `${hours}h ${mins}m to go`, status: 'upcoming' };
             }
             if (now < end) {
                 const mins = Math.max(0, Math.floor((end - now) / 60000));
-                return `🔴 Live · ~${mins}m left`;
+                return { text: `🔴 Live · ~${mins}m left`, status: 'live' };
             }
-            return "Finished (FT)";
+            return { text: 'Finished', status: 'finished' };
         }
 
         function renderSchedule() {
@@ -143,7 +150,7 @@
                 tr.id = `match-row-${index}`;
                 tr.innerHTML = `
                     <td class="p-5 font-medium">${dayName}, ${match.datetime.split('-')[1].trim()}</td>
-                    <td class="p-5 font-mono text-indigo-600 dark:text-indigo-400 countdown" data-time="${match.iso}">--</td>
+                    <td class="p-5 font-mono countdown" data-time="${match.iso}">--</td>
                     <td class="p-5 font-bold">${match.fixture}</td>
                     <td class="p-5">${broadcastHtml}</td>
                 `;
@@ -158,7 +165,7 @@
                         ${broadcastHtml}
                     </div>
                     <h3 class="font-bold text-lg">${match.fixture}</h3>
-                    <span class="text-indigo-600 dark:text-indigo-400 font-mono text-sm countdown" data-time="${match.iso}">--</span>
+                    <span class="font-mono text-sm countdown" data-time="${match.iso}">--</span>
                 `;
                 mobile.appendChild(card);
 
@@ -172,7 +179,12 @@
         }
 
         function updateCountdowns() {
-            document.querySelectorAll('.countdown').forEach(el => el.innerText = getCountdown(el.dataset.time));
+            document.querySelectorAll('.countdown').forEach(el => {
+                const { text, status } = getStatusInfo(el.dataset.time);
+                el.innerText = text;
+                el.classList.remove(...ALL_STATUS_COLOR_CLASSES);
+                el.classList.add(...STATUS_COLORS[status]);
+            });
         }
 
         renderSchedule();
