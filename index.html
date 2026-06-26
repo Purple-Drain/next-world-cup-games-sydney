@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0">
     <title>Next World Cup Games</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>">
     <link rel="manifest" href='data:application/json,%7B"name":"Next%20World%20Cup%20Games","short_name":"WorldCup2026","start_url":"./index.html","display":"standalone","background_color":"%230f172a","theme_color":"%230f172a"%7D'>
@@ -89,33 +89,56 @@
             { iso: "2026-06-28T12:00:00", dateStr: "28 June", datetime: "28 June - 12:00 AEST", fixture: "🇯🇴 Jordan v Argentina 🇦🇷", broadcast: "BBC" }
         ];
 
+        function updateThemeIcon() {
+            document.getElementById('theme-icon').textContent =
+                document.documentElement.classList.contains('dark') ? '🌙' : '☀️';
+        }
+
         function toggleTheme() {
             document.documentElement.classList.toggle('dark');
             localStorage.theme = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
+            updateThemeIcon();
         }
 
         const MATCH_DURATION_MINS = 120; // estimated incl. halftime/stoppage
 
-        function getMatchEnd(iso) {
-            return new Date(new Date(iso).getTime() + MATCH_DURATION_MINS * 60000);
+        // iso strings have no offset, so anchor them to AEST (UTC+10, no DST
+        // in June) instead of letting Date parse them in the viewer's local zone.
+        function parseAEST(iso) {
+            return new Date(`${iso}+10:00`);
         }
 
-        function getCountdown(iso) {
+        function getMatchEnd(iso) {
+            return new Date(parseAEST(iso).getTime() + MATCH_DURATION_MINS * 60000);
+        }
+
+        function formatAESTTime(date) {
+            return date.toLocaleTimeString('en-AU', { hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Australia/Sydney' });
+        }
+
+        const STATUS_COLORS = {
+            upcoming: ['text-indigo-600', 'dark:text-indigo-400'],
+            live: ['text-red-600', 'dark:text-red-400', 'font-semibold'],
+            finished: ['text-slate-400', 'dark:text-slate-500']
+        };
+        const ALL_STATUS_COLOR_CLASSES = Object.values(STATUS_COLORS).flat();
+
+        function getStatusInfo(iso) {
             const now = new Date();
-            const start = new Date(iso);
+            const start = parseAEST(iso);
             const end = getMatchEnd(iso);
 
             if (now < start) {
                 const diff = start - now;
                 const hours = Math.floor(diff / 3600000);
                 const mins = Math.floor((diff % 3600000) / 60000);
-                return `${hours}h ${mins}m to go`;
+                return { text: `${hours}h ${mins}m to go`, status: 'upcoming' };
             }
             if (now < end) {
                 const mins = Math.max(0, Math.floor((end - now) / 60000));
-                return `🔴 Live · ~${mins}m left`;
+                return { text: `🔴 Live · ~${mins}m left`, status: 'live' };
             }
-            return "Finished (FT)";
+            return { text: 'Finished', status: 'finished' };
         }
 
         function renderSchedule() {
@@ -131,8 +154,9 @@
                 const rowClass = (dateIndex % 2 === 0) ? 'bg-white dark:bg-slate-800' : 'bg-slate-200/70 dark:bg-slate-900/50';
                 
                 // Get the Day of the Week
-                const dateObj = new Date(match.iso);
-                const dayName = dateObj.toLocaleDateString('en-AU', { weekday: 'short' });
+                const dateObj = parseAEST(match.iso);
+                const dayName = dateObj.toLocaleDateString('en-AU', { weekday: 'short', timeZone: 'Australia/Sydney' });
+                const estEndStr = formatAESTTime(getMatchEnd(match.iso));
 
                 let broadcastHtml = (match.broadcast === 'BBC') 
                     ? `<div class="inline-flex gap-[3px] shadow-sm"><span class="bg-black text-white font-bold text-lg px-2 py-1">B</span><span class="bg-black text-white font-bold text-lg px-2 py-1">B</span><span class="bg-black text-white font-bold text-lg px-2 py-1">C</span></div>`
@@ -142,8 +166,11 @@
                 tr.className = `${rowClass} hover:bg-indigo-50/30 dark:hover:bg-indigo-900/20 transition-colors duration-200 cursor-default`;
                 tr.id = `match-row-${index}`;
                 tr.innerHTML = `
-                    <td class="p-5 font-medium">${dayName}, ${match.datetime.split('-')[1].trim()}</td>
-                    <td class="p-5 font-mono text-indigo-600 dark:text-indigo-400 countdown" data-time="${match.iso}">--</td>
+                    <td class="p-5 font-medium">
+                        ${dayName}, ${match.datetime.split('-')[1].trim()}
+                        <div class="text-xs font-normal text-slate-400 dark:text-slate-500 mt-0.5">Est. end ~${estEndStr}</div>
+                    </td>
+                    <td class="p-5 font-mono countdown" data-time="${match.iso}">--</td>
                     <td class="p-5 font-bold">${match.fixture}</td>
                     <td class="p-5">${broadcastHtml}</td>
                 `;
@@ -154,11 +181,14 @@
                 card.id = `match-card-${index}`;
                 card.innerHTML = `
                     <div class="flex justify-between items-center mb-2">
-                        <span class="text-sm font-medium text-slate-500 dark:text-slate-400">${dayName}, ${match.datetime}</span>
+                        <div>
+                            <span class="text-sm font-medium text-slate-500 dark:text-slate-400">${dayName}, ${match.datetime}</span>
+                            <div class="text-xs text-slate-400 dark:text-slate-500">Est. end ~${estEndStr}</div>
+                        </div>
                         ${broadcastHtml}
                     </div>
                     <h3 class="font-bold text-lg">${match.fixture}</h3>
-                    <span class="text-indigo-600 dark:text-indigo-400 font-mono text-sm countdown" data-time="${match.iso}">--</span>
+                    <span class="font-mono text-sm countdown" data-time="${match.iso}">--</span>
                 `;
                 mobile.appendChild(card);
 
@@ -172,9 +202,15 @@
         }
 
         function updateCountdowns() {
-            document.querySelectorAll('.countdown').forEach(el => el.innerText = getCountdown(el.dataset.time));
+            document.querySelectorAll('.countdown').forEach(el => {
+                const { text, status } = getStatusInfo(el.dataset.time);
+                el.innerText = text;
+                el.classList.remove(...ALL_STATUS_COLOR_CLASSES);
+                el.classList.add(...STATUS_COLORS[status]);
+            });
         }
 
+        updateThemeIcon();
         renderSchedule();
         updateCountdowns();
         setInterval(updateCountdowns, 60000);
