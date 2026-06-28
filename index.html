@@ -231,7 +231,11 @@
                     : (match.broadcast === 'BBC' ? bbcHtml : itvHtml);
 
                 if (!match.broadcastConfirmed) {
-                    broadcastHtml = `<div class="opacity-60" title="Estimated — exact broadcaster not yet confirmed">${broadcastHtml}</div>`;
+                    broadcastHtml = `
+                        <div class="flex items-center gap-1.5" title="Estimated — exact broadcaster not yet confirmed">
+                            <div class="opacity-60">${broadcastHtml}</div>
+                            <span class="text-[10px] font-semibold uppercase tracking-wide text-amber-700 dark:text-amber-400 bg-amber-100 dark:bg-amber-900/40 px-1.5 py-0.5 rounded">Est.</span>
+                        </div>`;
                 }
 
                 if (match.stage !== prevStage) {
