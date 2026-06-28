@@ -8,6 +8,7 @@
     <link rel="manifest" href='data:application/json,%7B"name":"Next%20World%20Cup%20Games","short_name":"WorldCup2026","start_url":"./index.html","display":"standalone","background_color":"%230f172a","theme_color":"%230f172a"%7D'>
     
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js" crossorigin="anonymous"></script>
     <script>
         tailwind.config = { darkMode: 'class' }
         if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -303,6 +304,7 @@
         renderSchedule();
         updateCountdowns();
         setInterval(updateCountdowns, 60000);
+        if (typeof twemoji !== 'undefined') twemoji.parse(document.body);
     </script>
 </body>
 </html>
