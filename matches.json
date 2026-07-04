@@ -816,7 +816,7 @@
       "fixture": "🇨🇦 Canada v Morocco 🇲🇦",
       "safeFixture": "🇿🇦 South Africa/Canada 🇨🇦 vs 🇳🇱 Netherlands/Morocco 🇲🇦",
       "broadcast": "ITV",
-      "broadcastConfirmed": false,
+      "broadcastConfirmed": true,
       "stage": "Round of 16"
     },
     {
@@ -825,8 +825,8 @@
       "datetime": "5 July - 07:00 AEST",
       "fixture": "🇵🇾 Paraguay v France 🇫🇷",
       "safeFixture": "🇩🇪 Germany/Paraguay 🇵🇾 vs 🇫🇷 France/Sweden 🇸🇪",
-      "broadcast": "ITV",
-      "broadcastConfirmed": false,
+      "broadcast": "BBC",
+      "broadcastConfirmed": true,
       "stage": "Round of 16"
     },
     {
@@ -835,8 +835,8 @@
       "datetime": "6 July - 06:00 AEST",
       "fixture": "🇧🇷 Brazil v Norway 🇳🇴",
       "safeFixture": "🇧🇷 Brazil/Japan 🇯🇵 vs 🇨🇮 Ivory Coast/Norway 🇳🇴",
-      "broadcast": "BBC",
-      "broadcastConfirmed": false,
+      "broadcast": "ITV",
+      "broadcastConfirmed": true,
       "stage": "Round of 16"
     },
     {
@@ -855,8 +855,8 @@
       "datetime": "7 July - 05:00 AEST",
       "fixture": "🇵🇹 Portugal v Spain 🇪🇸",
       "safeFixture": "🇵🇹 Portugal/Croatia 🇭🇷 vs 🇪🇸 Spain/Austria 🇦🇹",
-      "broadcast": "ITV",
-      "broadcastConfirmed": false,
+      "broadcast": "BBC",
+      "broadcastConfirmed": true,
       "stage": "Round of 16"
     },
     {
@@ -866,7 +866,7 @@
       "fixture": "🇺🇸 USA v Belgium 🇧🇪",
       "safeFixture": "🇺🇸 USA/Bosnia-Herzegovina 🇧🇦 vs 🇧🇪 Belgium/Senegal 🇸🇳",
       "broadcast": "BBC",
-      "broadcastConfirmed": false,
+      "broadcastConfirmed": true,
       "stage": "Round of 16"
     },
     {
@@ -876,7 +876,7 @@
       "fixture": "🇦🇷 Argentina v Egypt 🇪🇬",
       "safeFixture": "🇦🇷 Argentina/Cape Verde 🇨🇻 vs 🇦🇺 Australia/Egypt 🇪🇬",
       "broadcast": "ITV",
-      "broadcastConfirmed": false,
+      "broadcastConfirmed": true,
       "stage": "Round of 16"
     },
     {
@@ -885,8 +885,8 @@
       "datetime": "8 July - 06:00 AEST",
       "fixture": "🇨🇭 Switzerland v Colombia 🇨🇴",
       "safeFixture": "🇨🇭 Switzerland/Algeria 🇩🇿 vs 🇨🇴 Colombia/Ghana 🇬🇭",
-      "broadcast": "BBC",
-      "broadcastConfirmed": false,
+      "broadcast": "ITV",
+      "broadcastConfirmed": true,
       "stage": "Round of 16"
     },
     {

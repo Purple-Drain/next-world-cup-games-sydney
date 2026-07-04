@@ -176,7 +176,9 @@ async function main() {
       if (event.city) match.city = event.city;
       updates.push('venue');
     }
-    if (event.channel && (event.channel !== match.broadcast || !match.broadcastConfirmed)) {
+    // Fill in unconfirmed channels only — a confirmed broadcaster (sourced
+    // from the BBC's own listings) is never overridden by the feed.
+    if (event.channel && !match.broadcastConfirmed) {
       match.broadcast = event.channel;
       match.broadcastConfirmed = true;
       updates.push(`broadcast → ${event.channel}`);
