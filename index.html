@@ -176,8 +176,18 @@
         let showAllSpoilers = false;
         const revealedDays = new Set();
 
+        function aestDateKey(date) {
+            return date.toLocaleDateString('en-CA', { timeZone: 'Australia/Sydney' });
+        }
+
+        // Matches on today's AEST date or earlier aren't treated as spoilers;
+        // only future days stay masked.
+        function isPastOrToday(match) {
+            return aestDateKey(parseAEST(match.iso)) <= aestDateKey(new Date());
+        }
+
         function isMaskable(match) {
-            return match.safeFixture && match.safeFixture !== match.fixture;
+            return match.safeFixture && match.safeFixture !== match.fixture && !isPastOrToday(match);
         }
 
         function isRevealed(match) {
