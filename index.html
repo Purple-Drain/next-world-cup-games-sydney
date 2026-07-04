@@ -26,6 +26,10 @@
             <div>
                 <h1 class="text-3xl md:text-4xl font-extrabold text-white tracking-tight">Next World Cup Games</h1>
                 <p class="text-indigo-200 mt-2 font-medium text-sm md:text-base">Spoiler-free schedule • Sydney Time (AEST)</p>
+                <label class="mt-3 inline-flex items-center gap-2 cursor-pointer select-none text-sm font-medium text-indigo-100">
+                    <input id="spoiler-toggle" type="checkbox" autocomplete="off" onchange="toggleSpoilers(this)" class="h-4 w-4 rounded accent-amber-400">
+                    Reveal knockout teams <span class="text-xs text-indigo-300">(spoilers — or tap 👁 on a match to reveal just that day)</span>
+                </label>
             </div>
             <button onclick="toggleTheme()" class="bg-indigo-700/50 hover:bg-indigo-600 text-white p-3 rounded-full transition-all">
                 <span id="theme-icon">🌙</span>
@@ -123,34 +127,34 @@
             { iso: "2026-06-28T09:00:00", dateStr: "28 June", datetime: "28 June - 09:00 AEST", fixture: "🇨🇩 DR Congo v Uzbekistan 🇺🇿", broadcast: "ITV", broadcastConfirmed: false, stage: "Group K" },
             { iso: "2026-06-28T12:00:00", dateStr: "28 June", datetime: "28 June - 12:00 AEST", fixture: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England v Panama 🇵🇦", broadcast: "ITV", broadcastConfirmed: true, stage: "Group L" },
             { iso: "2026-06-28T12:00:00", dateStr: "28 June", datetime: "28 June - 12:00 AEST", fixture: "🇭🇷 Croatia v Ghana 🇬🇭", broadcast: "ITV", broadcastConfirmed: true, stage: "Group L" },
-            { iso: "2026-06-29T05:00:00", dateStr: "29 June", datetime: "29 June - 05:00 AEST", fixture: "🇿🇦 South Africa v Canada 🇨🇦", broadcast: "ITV", broadcastConfirmed: true, stage: "Round of 32" },
-            { iso: "2026-06-30T03:00:00", dateStr: "30 June", datetime: "30 June - 03:00 AEST", fixture: "🇧🇷 Brazil v Japan 🇯🇵", broadcast: "ITV", broadcastConfirmed: true, stage: "Round of 32" },
-            { iso: "2026-06-30T06:30:00", dateStr: "30 June", datetime: "30 June - 06:30 AEST", fixture: "🇩🇪 Germany v Paraguay 🇵🇾", broadcast: "BBC", broadcastConfirmed: true, stage: "Round of 32" },
-            { iso: "2026-06-30T11:00:00", dateStr: "30 June", datetime: "30 June - 11:00 AEST", fixture: "🇳🇱 Netherlands v Morocco 🇲🇦", broadcast: "ITV", broadcastConfirmed: true, stage: "Round of 32" },
-            { iso: "2026-07-01T03:00:00", dateStr: "1 July", datetime: "1 July - 03:00 AEST", fixture: "🇨🇮 Ivory Coast v Norway 🇳🇴", broadcast: "BBC", broadcastConfirmed: true, stage: "Round of 32" },
-            { iso: "2026-07-01T07:00:00", dateStr: "1 July", datetime: "1 July - 07:00 AEST", fixture: "🇫🇷 France v Sweden 🇸🇪", broadcast: "ITV", broadcastConfirmed: true, stage: "Round of 32" },
-            { iso: "2026-07-01T11:00:00", dateStr: "1 July", datetime: "1 July - 11:00 AEST", fixture: "🇲🇽 Mexico v Ecuador 🇪🇨", broadcast: "ITV", broadcastConfirmed: true, stage: "Round of 32" },
-            { iso: "2026-07-02T02:00:00", dateStr: "2 July", datetime: "2 July - 02:00 AEST", fixture: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England v DR Congo 🇨🇩", broadcast: "BBC", broadcastConfirmed: true, stage: "Round of 32" },
-            { iso: "2026-07-02T06:00:00", dateStr: "2 July", datetime: "2 July - 06:00 AEST", fixture: "🇧🇪 Belgium v Senegal 🇸🇳", broadcast: "ITV", broadcastConfirmed: true, stage: "Round of 32" },
-            { iso: "2026-07-02T10:00:00", dateStr: "2 July", datetime: "2 July - 10:00 AEST", fixture: "🇺🇸 USA v Bosnia-Herzegovina 🇧🇦", broadcast: "BBC", broadcastConfirmed: true, stage: "Round of 32" },
-            { iso: "2026-07-03T05:00:00", dateStr: "3 July", datetime: "3 July - 05:00 AEST", fixture: "🇪🇸 Spain v Austria 🇦🇹", broadcast: "BBC", broadcastConfirmed: true, stage: "Round of 32" },
-            { iso: "2026-07-03T09:00:00", dateStr: "3 July", datetime: "3 July - 09:00 AEST", fixture: "🇵🇹 Portugal v Croatia 🇭🇷", broadcast: "BBC", broadcastConfirmed: true, stage: "Round of 32" },
-            { iso: "2026-07-03T13:00:00", dateStr: "3 July", datetime: "3 July - 13:00 AEST", fixture: "🇨🇭 Switzerland v Algeria 🇩🇿", broadcast: "BBC", broadcastConfirmed: true, stage: "Round of 32" },
-            { iso: "2026-07-04T04:00:00", dateStr: "4 July", datetime: "4 July - 04:00 AEST", fixture: "🇦🇺 Australia v Egypt 🇪🇬", broadcast: "BBC", broadcastConfirmed: true, stage: "Round of 32" },
-            { iso: "2026-07-04T08:00:00", dateStr: "4 July", datetime: "4 July - 08:00 AEST", fixture: "🇦🇷 Argentina v Cape Verde 🇨🇻", broadcast: "ITV", broadcastConfirmed: true, stage: "Round of 32" },
-            { iso: "2026-07-04T11:30:00", dateStr: "4 July", datetime: "4 July - 11:30 AEST", fixture: "🇨🇴 Colombia v Ghana 🇬🇭", broadcast: "ITV", broadcastConfirmed: true, stage: "Round of 32" },
-            { iso: "2026-07-05T05:00:00", dateStr: "5 July", datetime: "5 July - 05:00 AEST", fixture: "Winner (🇿🇦 South Africa v Canada 🇨🇦) vs Winner (🇧🇷 Brazil v Japan 🇯🇵)", broadcast: "BBC", broadcastConfirmed: false, stage: "Round of 16" },
-            { iso: "2026-07-05T09:00:00", dateStr: "5 July", datetime: "5 July - 09:00 AEST", fixture: "Winner (🇩🇪 Germany v Paraguay 🇵🇾) vs Winner (🇳🇱 Netherlands v Morocco 🇲🇦)", broadcast: "ITV", broadcastConfirmed: false, stage: "Round of 16" },
-            { iso: "2026-07-06T05:00:00", dateStr: "6 July", datetime: "6 July - 05:00 AEST", fixture: "Winner (🇨🇮 Ivory Coast v Norway 🇳🇴) vs Winner (🇫🇷 France v Sweden 🇸🇪)", broadcast: "BBC", broadcastConfirmed: false, stage: "Round of 16" },
-            { iso: "2026-07-06T09:00:00", dateStr: "6 July", datetime: "6 July - 09:00 AEST", fixture: "Winner (🇲🇽 Mexico v Ecuador 🇪🇨) vs Winner (🏴󠁧󠁢󠁥󠁮󠁧󠁿 England v DR Congo 🇨🇩)", broadcast: "ITV", broadcastConfirmed: false, stage: "Round of 16" },
-            { iso: "2026-07-07T05:00:00", dateStr: "7 July", datetime: "7 July - 05:00 AEST", fixture: "Winner (🇧🇪 Belgium v Senegal 🇸🇳) vs Winner (🇺🇸 USA v Bosnia-Herzegovina 🇧🇦)", broadcast: "BBC", broadcastConfirmed: false, stage: "Round of 16" },
-            { iso: "2026-07-07T09:00:00", dateStr: "7 July", datetime: "7 July - 09:00 AEST", fixture: "Winner (🇪🇸 Spain v Austria 🇦🇹) vs Winner (🇵🇹 Portugal v Croatia 🇭🇷)", broadcast: "ITV", broadcastConfirmed: false, stage: "Round of 16" },
-            { iso: "2026-07-08T05:00:00", dateStr: "8 July", datetime: "8 July - 05:00 AEST", fixture: "Winner (🇨🇭 Switzerland v Algeria 🇩🇿) vs Winner (🇦🇺 Australia v Egypt 🇪🇬)", broadcast: "BBC", broadcastConfirmed: false, stage: "Round of 16" },
-            { iso: "2026-07-08T09:00:00", dateStr: "8 July", datetime: "8 July - 09:00 AEST", fixture: "Winner (🇦🇷 Argentina v Cape Verde 🇨🇻) vs Winner (🇨🇴 Colombia v Ghana 🇬🇭)", broadcast: "ITV", broadcastConfirmed: false, stage: "Round of 16" },
-            { iso: "2026-07-10T05:00:00", dateStr: "10 July", datetime: "10 July - 05:00 AEST", fixture: "Winner (R16 Match 1) vs Winner (R16 Match 2)", broadcast: "BBC", broadcastConfirmed: false, stage: "Quarterfinal" },
-            { iso: "2026-07-11T11:00:00", dateStr: "11 July", datetime: "11 July - 11:00 AEST", fixture: "Winner (R16 Match 3) vs Winner (R16 Match 4)", broadcast: "ITV", broadcastConfirmed: false, stage: "Quarterfinal" },
-            { iso: "2026-07-12T08:00:00", dateStr: "12 July", datetime: "12 July - 08:00 AEST", fixture: "Winner (R16 Match 5) vs Winner (R16 Match 6)", broadcast: "BBC", broadcastConfirmed: false, stage: "Quarterfinal" },
-            { iso: "2026-07-12T09:00:00", dateStr: "12 July", datetime: "12 July - 09:00 AEST", fixture: "Winner (R16 Match 7) vs Winner (R16 Match 8)", broadcast: "ITV", broadcastConfirmed: false, stage: "Quarterfinal" },
+            { iso: "2026-06-29T05:00:00", dateStr: "29 June", datetime: "29 June - 05:00 AEST", fixture: "🇿🇦 South Africa v Canada 🇨🇦", safeFixture: "Group A qualifier v Group B qualifier", broadcast: "ITV", broadcastConfirmed: true, stage: "Round of 32" },
+            { iso: "2026-06-30T03:00:00", dateStr: "30 June", datetime: "30 June - 03:00 AEST", fixture: "🇧🇷 Brazil v Japan 🇯🇵", safeFixture: "Group C qualifier v Group F qualifier", broadcast: "ITV", broadcastConfirmed: true, stage: "Round of 32" },
+            { iso: "2026-06-30T06:30:00", dateStr: "30 June", datetime: "30 June - 06:30 AEST", fixture: "🇩🇪 Germany v Paraguay 🇵🇾", safeFixture: "Group E qualifier v Group D qualifier", broadcast: "BBC", broadcastConfirmed: true, stage: "Round of 32" },
+            { iso: "2026-06-30T11:00:00", dateStr: "30 June", datetime: "30 June - 11:00 AEST", fixture: "🇳🇱 Netherlands v Morocco 🇲🇦", safeFixture: "Group F qualifier v Group C qualifier", broadcast: "ITV", broadcastConfirmed: true, stage: "Round of 32" },
+            { iso: "2026-07-01T03:00:00", dateStr: "1 July", datetime: "1 July - 03:00 AEST", fixture: "🇨🇮 Ivory Coast v Norway 🇳🇴", safeFixture: "Group E qualifier v Group I qualifier", broadcast: "BBC", broadcastConfirmed: true, stage: "Round of 32" },
+            { iso: "2026-07-01T07:00:00", dateStr: "1 July", datetime: "1 July - 07:00 AEST", fixture: "🇫🇷 France v Sweden 🇸🇪", safeFixture: "Group I qualifier v Group F qualifier", broadcast: "ITV", broadcastConfirmed: true, stage: "Round of 32" },
+            { iso: "2026-07-01T11:00:00", dateStr: "1 July", datetime: "1 July - 11:00 AEST", fixture: "🇲🇽 Mexico v Ecuador 🇪🇨", safeFixture: "Group A qualifier v Group E qualifier", broadcast: "ITV", broadcastConfirmed: true, stage: "Round of 32" },
+            { iso: "2026-07-02T02:00:00", dateStr: "2 July", datetime: "2 July - 02:00 AEST", fixture: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England v DR Congo 🇨🇩", safeFixture: "Group L qualifier v Group K qualifier", broadcast: "BBC", broadcastConfirmed: true, stage: "Round of 32" },
+            { iso: "2026-07-02T06:00:00", dateStr: "2 July", datetime: "2 July - 06:00 AEST", fixture: "🇧🇪 Belgium v Senegal 🇸🇳", safeFixture: "Group G qualifier v Group I qualifier", broadcast: "ITV", broadcastConfirmed: true, stage: "Round of 32" },
+            { iso: "2026-07-02T10:00:00", dateStr: "2 July", datetime: "2 July - 10:00 AEST", fixture: "🇺🇸 USA v Bosnia-Herzegovina 🇧🇦", safeFixture: "Group D qualifier v Group B qualifier", broadcast: "BBC", broadcastConfirmed: true, stage: "Round of 32" },
+            { iso: "2026-07-03T05:00:00", dateStr: "3 July", datetime: "3 July - 05:00 AEST", fixture: "🇪🇸 Spain v Austria 🇦🇹", safeFixture: "Group H qualifier v Group J qualifier", broadcast: "BBC", broadcastConfirmed: true, stage: "Round of 32" },
+            { iso: "2026-07-03T09:00:00", dateStr: "3 July", datetime: "3 July - 09:00 AEST", fixture: "🇵🇹 Portugal v Croatia 🇭🇷", safeFixture: "Group K qualifier v Group L qualifier", broadcast: "BBC", broadcastConfirmed: true, stage: "Round of 32" },
+            { iso: "2026-07-03T13:00:00", dateStr: "3 July", datetime: "3 July - 13:00 AEST", fixture: "🇨🇭 Switzerland v Algeria 🇩🇿", safeFixture: "Group B qualifier v Group J qualifier", broadcast: "BBC", broadcastConfirmed: true, stage: "Round of 32" },
+            { iso: "2026-07-04T04:00:00", dateStr: "4 July", datetime: "4 July - 04:00 AEST", fixture: "🇦🇺 Australia v Egypt 🇪🇬", safeFixture: "Group D qualifier v Group G qualifier", broadcast: "BBC", broadcastConfirmed: true, stage: "Round of 32" },
+            { iso: "2026-07-04T08:00:00", dateStr: "4 July", datetime: "4 July - 08:00 AEST", fixture: "🇦🇷 Argentina v Cape Verde 🇨🇻", safeFixture: "Group J qualifier v Group H qualifier", broadcast: "ITV", broadcastConfirmed: true, stage: "Round of 32" },
+            { iso: "2026-07-04T11:30:00", dateStr: "4 July", datetime: "4 July - 11:30 AEST", fixture: "🇨🇴 Colombia v Ghana 🇬🇭", safeFixture: "Group K qualifier v Group L qualifier", broadcast: "ITV", broadcastConfirmed: true, stage: "Round of 32" },
+            { iso: "2026-07-05T03:00:00", dateStr: "5 July", datetime: "5 July - 03:00 AEST", fixture: "🇨🇦 Canada v Morocco 🇲🇦", safeFixture: "🇿🇦 South Africa/Canada 🇨🇦 vs 🇳🇱 Netherlands/Morocco 🇲🇦", broadcast: "ITV", broadcastConfirmed: false, stage: "Round of 16" },
+            { iso: "2026-07-05T07:00:00", dateStr: "5 July", datetime: "5 July - 07:00 AEST", fixture: "🇵🇾 Paraguay v France 🇫🇷", safeFixture: "🇩🇪 Germany/Paraguay 🇵🇾 vs 🇫🇷 France/Sweden 🇸🇪", broadcast: "ITV", broadcastConfirmed: false, stage: "Round of 16" },
+            { iso: "2026-07-06T06:00:00", dateStr: "6 July", datetime: "6 July - 06:00 AEST", fixture: "🇧🇷 Brazil v Norway 🇳🇴", safeFixture: "🇧🇷 Brazil/Japan 🇯🇵 vs 🇨🇮 Ivory Coast/Norway 🇳🇴", broadcast: "BBC", broadcastConfirmed: false, stage: "Round of 16" },
+            { iso: "2026-07-06T10:00:00", dateStr: "6 July", datetime: "6 July - 10:00 AEST", fixture: "🇲🇽 Mexico v England 🏴󠁧󠁢󠁥󠁮󠁧󠁿", safeFixture: "🇲🇽 Mexico/Ecuador 🇪🇨 vs 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England/DR Congo 🇨🇩", broadcast: "BBC", broadcastConfirmed: true, stage: "Round of 16" },
+            { iso: "2026-07-07T05:00:00", dateStr: "7 July", datetime: "7 July - 05:00 AEST", fixture: "🇵🇹 Portugal v Spain 🇪🇸", safeFixture: "🇵🇹 Portugal/Croatia 🇭🇷 vs 🇪🇸 Spain/Austria 🇦🇹", broadcast: "ITV", broadcastConfirmed: false, stage: "Round of 16" },
+            { iso: "2026-07-07T10:00:00", dateStr: "7 July", datetime: "7 July - 10:00 AEST", fixture: "🇺🇸 USA v Belgium 🇧🇪", safeFixture: "🇺🇸 USA/Bosnia-Herzegovina 🇧🇦 vs 🇧🇪 Belgium/Senegal 🇸🇳", broadcast: "BBC", broadcastConfirmed: false, stage: "Round of 16" },
+            { iso: "2026-07-08T02:00:00", dateStr: "8 July", datetime: "8 July - 02:00 AEST", fixture: "🇦🇷 Argentina v Egypt 🇪🇬", safeFixture: "🇦🇷 Argentina/Cape Verde 🇨🇻 vs 🇦🇺 Australia/Egypt 🇪🇬", broadcast: "ITV", broadcastConfirmed: false, stage: "Round of 16" },
+            { iso: "2026-07-08T06:00:00", dateStr: "8 July", datetime: "8 July - 06:00 AEST", fixture: "🇨🇭 Switzerland v Colombia 🇨🇴", safeFixture: "🇨🇭 Switzerland/Algeria 🇩🇿 vs 🇨🇴 Colombia/Ghana 🇬🇭", broadcast: "BBC", broadcastConfirmed: false, stage: "Round of 16" },
+            { iso: "2026-07-10T05:00:00", dateStr: "10 July", datetime: "10 July - 05:00 AEST", fixture: "🇵🇾 Paraguay/France 🇫🇷 vs 🇨🇦 Canada/Morocco 🇲🇦", broadcast: "BBC", broadcastConfirmed: false, stage: "Quarterfinal" },
+            { iso: "2026-07-11T11:00:00", dateStr: "11 July", datetime: "11 July - 11:00 AEST", fixture: "🇧🇷 Brazil/Norway 🇳🇴 vs 🇲🇽 Mexico/England 🏴󠁧󠁢󠁥󠁮󠁧󠁿", broadcast: "ITV", broadcastConfirmed: false, stage: "Quarterfinal" },
+            { iso: "2026-07-12T08:00:00", dateStr: "12 July", datetime: "12 July - 08:00 AEST", fixture: "🇵🇹 Portugal/Spain 🇪🇸 vs 🇺🇸 USA/Belgium 🇧🇪", broadcast: "BBC", broadcastConfirmed: false, stage: "Quarterfinal" },
+            { iso: "2026-07-12T09:00:00", dateStr: "12 July", datetime: "12 July - 09:00 AEST", fixture: "🇦🇷 Argentina/Egypt 🇪🇬 vs 🇨🇭 Switzerland/Colombia 🇨🇴", broadcast: "ITV", broadcastConfirmed: false, stage: "Quarterfinal" },
             { iso: "2026-07-15T11:00:00", dateStr: "15 July", datetime: "15 July - 11:00 AEST", fixture: "Winner (Quarterfinal 1) vs Winner (Quarterfinal 2)", broadcast: "BBC", broadcastConfirmed: false, stage: "Semifinal" },
             { iso: "2026-07-16T11:00:00", dateStr: "16 July", datetime: "16 July - 11:00 AEST", fixture: "Winner (Quarterfinal 3) vs Winner (Quarterfinal 4)", broadcast: "ITV", broadcastConfirmed: false, stage: "Semifinal" },
             { iso: "2026-07-19T10:00:00", dateStr: "19 July", datetime: "19 July - 10:00 AEST", fixture: "Loser (Semifinal 1) vs Loser (Semifinal 2)", broadcast: "BBC", broadcastConfirmed: false, stage: "Third-Place Playoff" },
@@ -166,6 +170,41 @@
             document.documentElement.classList.toggle('dark');
             localStorage.theme = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
             updateThemeIcon();
+        }
+
+        // Spoiler state — deliberately in-memory only, so every visit starts spoiler-safe.
+        let showAllSpoilers = false;
+        const revealedDays = new Set();
+
+        function isMaskable(match) {
+            return match.safeFixture && match.safeFixture !== match.fixture;
+        }
+
+        function isRevealed(match) {
+            return showAllSpoilers || revealedDays.has(match.dateStr);
+        }
+
+        function displayFixture(match) {
+            return (isMaskable(match) && !isRevealed(match)) ? match.safeFixture : match.fixture;
+        }
+
+        function toggleSpoilers(checkbox) {
+            showAllSpoilers = checkbox.checked;
+            rerenderSchedule();
+        }
+
+        function toggleDay(dateStr) {
+            if (revealedDays.has(dateStr)) revealedDays.delete(dateStr);
+            else revealedDays.add(dateStr);
+            rerenderSchedule();
+        }
+
+        function rerenderSchedule() {
+            document.getElementById('desktop-schedule').innerHTML = '';
+            document.getElementById('mobile-schedule').innerHTML = '';
+            renderSchedule(false);
+            updateCountdowns();
+            if (typeof twemoji !== 'undefined') twemoji.parse(document.body);
         }
 
         const MATCH_DURATION_MINS = 120; // estimated incl. halftime/stoppage
@@ -209,7 +248,7 @@
             return { text: 'Finished', status: 'finished' };
         }
 
-        function renderSchedule() {
+        function renderSchedule(scrollToNext = true) {
             const desktop = document.getElementById('desktop-schedule');
             const mobile = document.getElementById('mobile-schedule');
             const now = new Date();
@@ -255,6 +294,15 @@
                     prevStage = match.stage;
                 }
 
+                let fixtureHtml = match.fixture;
+                if (isMaskable(match) && !showAllSpoilers) {
+                    const revealed = isRevealed(match);
+                    const eyeBtn = `<button onclick="toggleDay('${match.dateStr}')" title="${revealed ? 'Hide' : 'Reveal'} teams for all matches on ${match.dateStr}" class="ml-2 align-middle opacity-60 hover:opacity-100 transition-opacity">${revealed ? '🙈' : '👁️'}</button>`;
+                    fixtureHtml = revealed
+                        ? `${match.fixture}${eyeBtn}`
+                        : `<span class="font-medium text-slate-500 dark:text-slate-400">${match.safeFixture}</span>${eyeBtn}`;
+                }
+
                 const tr = document.createElement('tr');
                 tr.className = `${rowClass} hover:bg-indigo-50/30 dark:hover:bg-indigo-900/20 transition-colors duration-200 cursor-default`;
                 tr.id = `match-row-${index}`;
@@ -264,7 +312,7 @@
                         <div class="text-xs font-normal text-slate-400 dark:text-slate-500 mt-0.5">Est. end ~${estEndStr}</div>
                     </td>
                     <td class="p-5 font-mono countdown" data-time="${match.iso}">--</td>
-                    <td class="p-5 font-bold">${match.fixture}</td>
+                    <td class="p-5 font-bold">${fixtureHtml}</td>
                     <td class="p-5">${broadcastHtml}</td>
                 `;
                 desktop.appendChild(tr);
@@ -280,12 +328,12 @@
                         </div>
                         ${broadcastHtml}
                     </div>
-                    <h3 class="font-bold text-lg">${match.fixture}</h3>
+                    <h3 class="font-bold text-lg">${fixtureHtml}</h3>
                     <span class="font-mono text-sm countdown" data-time="${match.iso}">--</span>
                 `;
                 mobile.appendChild(card);
 
-                if (index === scrollIndex) {
+                if (scrollToNext && index === scrollIndex) {
                     setTimeout(() => {
                         const el = document.getElementById(window.innerWidth < 768 ? `match-card-${index}` : `match-row-${index}`);
                         if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -304,6 +352,7 @@
         }
 
         updateThemeIcon();
+        document.getElementById('spoiler-toggle').checked = false;
         renderSchedule();
         updateCountdowns();
         setInterval(updateCountdowns, 60000);
