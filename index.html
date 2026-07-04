@@ -54,7 +54,9 @@
     </div>
 
     <script>
-        const matches = [
+        // Snapshot used when matches.json can't be fetched (offline, file://).
+        // The canonical, auto-refreshed data lives in matches.json.
+        const FALLBACK_MATCHES = [
             { iso: "2026-06-12T05:00:00", dateStr: "12 June", datetime: "12 June - 05:00 AEST", fixture: "🇲🇽 Mexico v South Africa 🇿🇦", broadcast: "ITV", broadcastConfirmed: true, stage: "Group A" },
             { iso: "2026-06-12T11:00:00", dateStr: "12 June", datetime: "12 June - 11:00 AEST", fixture: "🇰🇷 South Korea v Czech Republic 🇨🇿", broadcast: "ITV", broadcastConfirmed: true, stage: "Group A" },
             { iso: "2026-06-13T05:00:00", dateStr: "13 June", datetime: "13 June - 05:00 AEST", fixture: "🇨🇦 Canada v Bosnia-Herzegovina 🇧🇦", broadcast: "BBC", broadcastConfirmed: true, stage: "Group B" },
@@ -160,6 +162,22 @@
             { iso: "2026-07-19T10:00:00", dateStr: "19 July", datetime: "19 July - 10:00 AEST", fixture: "Loser (Semifinal 1) vs Loser (Semifinal 2)", broadcast: "BBC", broadcastConfirmed: false, stage: "Third-Place Playoff" },
             { iso: "2026-07-20T05:00:00", dateStr: "20 July", datetime: "20 July - 05:00 AEST", fixture: "Winner (Semifinal 1) vs Winner (Semifinal 2)", broadcast: "BOTH", broadcastConfirmed: true, stage: "Final" },
         ];
+
+        let matches = FALLBACK_MATCHES;
+
+        // matches.json is refreshed by .github/workflows/refresh-data.yml with
+        // live kickoff times, venues and confirmed broadcasters.
+        async function loadMatches() {
+            try {
+                const res = await fetch('matches.json', { cache: 'no-cache' });
+                if (res.ok) {
+                    const data = await res.json();
+                    if (Array.isArray(data.matches) && data.matches.length) matches = data.matches;
+                }
+            } catch (e) {
+                // offline or file:// — keep the built-in schedule
+            }
+        }
 
         function updateThemeIcon() {
             document.getElementById('theme-icon').textContent =
@@ -304,6 +322,10 @@
                     prevStage = match.stage;
                 }
 
+                const venueHtml = match.venue
+                    ? `<div class="text-xs font-normal text-slate-400 dark:text-slate-500 mt-1">📍 ${match.venue}${match.city ? ', ' + match.city : ''}</div>`
+                    : '';
+
                 let fixtureHtml = match.fixture;
                 if (isMaskable(match) && !showAllSpoilers) {
                     const revealed = isRevealed(match);
@@ -322,7 +344,7 @@
                         <div class="text-xs font-normal text-slate-400 dark:text-slate-500 mt-0.5">Est. end ~${estEndStr}</div>
                     </td>
                     <td class="p-5 font-mono countdown" data-time="${match.iso}">--</td>
-                    <td class="p-5 font-bold">${fixtureHtml}</td>
+                    <td class="p-5 font-bold">${fixtureHtml}${venueHtml}</td>
                     <td class="p-5">${broadcastHtml}</td>
                 `;
                 desktop.appendChild(tr);
@@ -339,6 +361,7 @@
                         ${broadcastHtml}
                     </div>
                     <h3 class="font-bold text-lg">${fixtureHtml}</h3>
+                    ${venueHtml}
                     <span class="font-mono text-sm countdown" data-time="${match.iso}">--</span>
                 `;
                 mobile.appendChild(card);
@@ -363,10 +386,12 @@
 
         updateThemeIcon();
         document.getElementById('spoiler-toggle').checked = false;
-        renderSchedule();
-        updateCountdowns();
+        loadMatches().finally(() => {
+            renderSchedule();
+            updateCountdowns();
+            if (typeof twemoji !== 'undefined') twemoji.parse(document.body);
+        });
         setInterval(updateCountdowns, 60000);
-        if (typeof twemoji !== 'undefined') twemoji.parse(document.body);
     </script>
 </body>
 </html>
