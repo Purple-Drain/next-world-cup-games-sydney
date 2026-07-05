@@ -657,7 +657,9 @@
       "safeFixture": "Group A qualifier v Group B qualifier",
       "broadcast": "ITV",
       "broadcastConfirmed": true,
-      "stage": "Round of 32"
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-26T11:00:00",
+      "city": "Los Angeles"
     },
     {
       "iso": "2026-06-30T03:00:00",
@@ -667,7 +669,9 @@
       "safeFixture": "Group C qualifier v Group F qualifier",
       "broadcast": "ITV",
       "broadcastConfirmed": true,
-      "stage": "Round of 32"
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-27T14:00:00",
+      "city": "Houston"
     },
     {
       "iso": "2026-06-30T06:30:00",
@@ -677,7 +681,9 @@
       "safeFixture": "Group E qualifier v Group D qualifier",
       "broadcast": "BBC",
       "broadcastConfirmed": true,
-      "stage": "Round of 32"
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-27T11:00:00",
+      "city": "Foxborough"
     },
     {
       "iso": "2026-06-30T11:00:00",
@@ -687,7 +693,9 @@
       "safeFixture": "Group F qualifier v Group C qualifier",
       "broadcast": "ITV",
       "broadcastConfirmed": true,
-      "stage": "Round of 32"
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-27T14:00:00",
+      "city": "Guadalupe"
     },
     {
       "iso": "2026-07-01T03:00:00",
@@ -697,7 +705,9 @@
       "safeFixture": "Group E qualifier v Group I qualifier",
       "broadcast": "BBC",
       "broadcastConfirmed": true,
-      "stage": "Round of 32"
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-28T13:00:00",
+      "city": "Arlington"
     },
     {
       "iso": "2026-07-01T07:00:00",
@@ -707,7 +717,9 @@
       "safeFixture": "Group I qualifier v Group F qualifier",
       "broadcast": "ITV",
       "broadcastConfirmed": true,
-      "stage": "Round of 32"
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-28T13:00:00",
+      "city": "New Jersey"
     },
     {
       "iso": "2026-07-01T11:00:00",
@@ -717,7 +729,9 @@
       "safeFixture": "Group A qualifier v Group E qualifier",
       "broadcast": "ITV",
       "broadcastConfirmed": true,
-      "stage": "Round of 32"
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-27T11:00:00",
+      "city": "Mexico City"
     },
     {
       "iso": "2026-07-02T02:00:00",
@@ -727,7 +741,9 @@
       "safeFixture": "Group L qualifier v Group K qualifier",
       "broadcast": "BBC",
       "broadcastConfirmed": true,
-      "stage": "Round of 32"
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-29T14:00:00",
+      "city": "Atlanta"
     },
     {
       "iso": "2026-07-02T06:00:00",
@@ -737,7 +753,9 @@
       "safeFixture": "Group G qualifier v Group I qualifier",
       "broadcast": "ITV",
       "broadcastConfirmed": true,
-      "stage": "Round of 32"
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-28T13:00:00",
+      "city": "Seattle"
     },
     {
       "iso": "2026-07-02T10:00:00",
@@ -747,7 +765,9 @@
       "safeFixture": "Group D qualifier v Group B qualifier",
       "broadcast": "BBC",
       "broadcastConfirmed": true,
-      "stage": "Round of 32"
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-27T04:00:00",
+      "city": "Santa Clara"
     },
     {
       "iso": "2026-07-03T05:00:00",
@@ -757,7 +777,9 @@
       "safeFixture": "Group H qualifier v Group J qualifier",
       "broadcast": "BBC",
       "broadcastConfirmed": true,
-      "stage": "Round of 32"
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-29T04:00:00",
+      "city": "Los Angeles"
     },
     {
       "iso": "2026-07-03T09:00:00",
@@ -767,7 +789,9 @@
       "safeFixture": "Group K qualifier v Group L qualifier",
       "broadcast": "BBC",
       "broadcastConfirmed": true,
-      "stage": "Round of 32"
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-29T14:00:00",
+      "city": "Toronto"
     },
     {
       "iso": "2026-07-03T13:00:00",
@@ -777,7 +801,9 @@
       "safeFixture": "Group B qualifier v Group J qualifier",
       "broadcast": "BBC",
       "broadcastConfirmed": true,
-      "stage": "Round of 32"
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-29T04:00:00",
+      "city": "Vancouver"
     },
     {
       "iso": "2026-07-04T04:00:00",
@@ -787,7 +813,9 @@
       "safeFixture": "Group D qualifier v Group G qualifier",
       "broadcast": "BBC",
       "broadcastConfirmed": true,
-      "stage": "Round of 32"
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-28T04:00:00",
+      "city": "Arlington"
     },
     {
       "iso": "2026-07-04T08:00:00",
@@ -797,7 +825,9 @@
       "safeFixture": "Group J qualifier v Group H qualifier",
       "broadcast": "ITV",
       "broadcastConfirmed": true,
-      "stage": "Round of 32"
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-29T04:00:00",
+      "city": "Miami"
     },
     {
       "iso": "2026-07-04T11:30:00",
@@ -807,7 +837,9 @@
       "safeFixture": "Group K qualifier v Group L qualifier",
       "broadcast": "ITV",
       "broadcastConfirmed": true,
-      "stage": "Round of 32"
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-29T14:00:00",
+      "city": "Kansas City"
     },
     {
       "iso": "2026-07-05T03:00:00",
@@ -817,7 +849,9 @@
       "safeFixture": "🇿🇦 South Africa/Canada 🇨🇦 vs 🇳🇱 Netherlands/Morocco 🇲🇦",
       "broadcast": "ITV",
       "broadcastConfirmed": true,
-      "stage": "Round of 16"
+      "stage": "Round of 16",
+      "revealAfter": "2026-07-01T13:00:00",
+      "city": "Houston"
     },
     {
       "iso": "2026-07-05T07:00:00",
@@ -827,7 +861,9 @@
       "safeFixture": "🇩🇪 Germany/Paraguay 🇵🇾 vs 🇫🇷 France/Sweden 🇸🇪",
       "broadcast": "BBC",
       "broadcastConfirmed": true,
-      "stage": "Round of 16"
+      "stage": "Round of 16",
+      "revealAfter": "2026-07-02T09:00:00",
+      "city": "Philadelphia"
     },
     {
       "iso": "2026-07-06T06:00:00",
@@ -837,7 +873,9 @@
       "safeFixture": "🇧🇷 Brazil/Japan 🇯🇵 vs 🇨🇮 Ivory Coast/Norway 🇳🇴",
       "broadcast": "ITV",
       "broadcastConfirmed": true,
-      "stage": "Round of 16"
+      "stage": "Round of 16",
+      "revealAfter": "2026-07-02T05:00:00",
+      "city": "New Jersey"
     },
     {
       "iso": "2026-07-06T10:00:00",
@@ -847,7 +885,9 @@
       "safeFixture": "🇲🇽 Mexico/Ecuador 🇪🇨 vs 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England/DR Congo 🇨🇩",
       "broadcast": "BBC",
       "broadcastConfirmed": true,
-      "stage": "Round of 16"
+      "stage": "Round of 16",
+      "revealAfter": "2026-07-03T04:00:00",
+      "city": "Mexico City"
     },
     {
       "iso": "2026-07-07T05:00:00",
@@ -857,7 +897,9 @@
       "safeFixture": "🇵🇹 Portugal/Croatia 🇭🇷 vs 🇪🇸 Spain/Austria 🇦🇹",
       "broadcast": "BBC",
       "broadcastConfirmed": true,
-      "stage": "Round of 16"
+      "stage": "Round of 16",
+      "revealAfter": "2026-07-04T11:00:00",
+      "city": "Dallas"
     },
     {
       "iso": "2026-07-07T10:00:00",
@@ -867,7 +909,9 @@
       "safeFixture": "🇺🇸 USA/Bosnia-Herzegovina 🇧🇦 vs 🇧🇪 Belgium/Senegal 🇸🇳",
       "broadcast": "BBC",
       "broadcastConfirmed": true,
-      "stage": "Round of 16"
+      "stage": "Round of 16",
+      "revealAfter": "2026-07-03T12:00:00",
+      "city": "Seattle"
     },
     {
       "iso": "2026-07-08T02:00:00",
@@ -877,7 +921,9 @@
       "safeFixture": "🇦🇷 Argentina/Cape Verde 🇨🇻 vs 🇦🇺 Australia/Egypt 🇪🇬",
       "broadcast": "ITV",
       "broadcastConfirmed": true,
-      "stage": "Round of 16"
+      "stage": "Round of 16",
+      "revealAfter": "2026-07-05T10:00:00",
+      "city": "Atlanta"
     },
     {
       "iso": "2026-07-08T06:00:00",
@@ -887,7 +933,9 @@
       "safeFixture": "🇨🇭 Switzerland/Algeria 🇩🇿 vs 🇨🇴 Colombia/Ghana 🇬🇭",
       "broadcast": "ITV",
       "broadcastConfirmed": true,
-      "stage": "Round of 16"
+      "stage": "Round of 16",
+      "revealAfter": "2026-07-05T13:30:00",
+      "city": "Vancouver"
     },
     {
       "iso": "2026-07-10T06:00:00",
@@ -897,7 +945,8 @@
       "broadcast": "BBC",
       "broadcastConfirmed": false,
       "stage": "Quarterfinal",
-      "city": "Boston"
+      "city": "Boston",
+      "revealAfter": "2026-07-06T09:00:00"
     },
     {
       "iso": "2026-07-11T05:00:00",
@@ -907,7 +956,8 @@
       "broadcast": "BBC",
       "broadcastConfirmed": false,
       "stage": "Quarterfinal",
-      "city": "Los Angeles"
+      "city": "Los Angeles",
+      "revealAfter": "2026-07-08T12:00:00"
     },
     {
       "iso": "2026-07-12T07:00:00",
@@ -917,7 +967,8 @@
       "broadcast": "ITV",
       "broadcastConfirmed": false,
       "stage": "Quarterfinal",
-      "city": "Miami"
+      "city": "Miami",
+      "revealAfter": "2026-07-07T12:00:00"
     },
     {
       "iso": "2026-07-12T11:00:00",
@@ -927,7 +978,8 @@
       "broadcast": "ITV",
       "broadcastConfirmed": false,
       "stage": "Quarterfinal",
-      "city": "Kansas City"
+      "city": "Kansas City",
+      "revealAfter": "2026-07-09T08:00:00"
     },
     {
       "iso": "2026-07-15T05:00:00",
@@ -936,7 +988,8 @@
       "fixture": "Winner (Quarterfinal 1) vs Winner (Quarterfinal 2)",
       "broadcast": "BOTH",
       "broadcastConfirmed": true,
-      "stage": "Semifinal"
+      "stage": "Semifinal",
+      "revealAfter": "2026-07-12T07:00:00"
     },
     {
       "iso": "2026-07-16T05:00:00",
@@ -945,7 +998,8 @@
       "fixture": "Winner (Quarterfinal 3) vs Winner (Quarterfinal 4)",
       "broadcast": "BOTH",
       "broadcastConfirmed": true,
-      "stage": "Semifinal"
+      "stage": "Semifinal",
+      "revealAfter": "2026-07-13T13:00:00"
     },
     {
       "iso": "2026-07-19T07:00:00",
@@ -954,7 +1008,8 @@
       "fixture": "Loser (Semifinal 1) vs Loser (Semifinal 2)",
       "broadcast": "BBC",
       "broadcastConfirmed": false,
-      "stage": "Third-Place Playoff"
+      "stage": "Third-Place Playoff",
+      "revealAfter": "2026-07-17T07:00:00"
     },
     {
       "iso": "2026-07-20T05:00:00",
@@ -963,7 +1018,8 @@
       "fixture": "Winner (Semifinal 1) vs Winner (Semifinal 2)",
       "broadcast": "BOTH",
       "broadcastConfirmed": true,
-      "stage": "Final"
+      "stage": "Final",
+      "revealAfter": "2026-07-17T07:00:00"
     }
   ]
 }
