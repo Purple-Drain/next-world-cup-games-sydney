@@ -1,5 +1,5 @@
 {
-  "updated": null,
+  "updated": "2026-07-05T09:24:14.856Z",
   "matches": [
     {
       "iso": "2026-06-12T05:00:00",
@@ -851,7 +851,7 @@
       "broadcastConfirmed": true,
       "stage": "Round of 16",
       "revealAfter": "2026-07-01T13:00:00",
-      "city": "Houston",
+      "city": "Houston, Texas",
       "sideA": {
         "real": "🇨🇦 Canada",
         "safe": "🇿🇦 South Africa/Canada 🇨🇦",
@@ -861,7 +861,8 @@
         "real": "Morocco 🇲🇦",
         "safe": "🇳🇱 Netherlands/Morocco 🇲🇦",
         "revealAfter": "2026-07-01T13:00:00"
-      }
+      },
+      "venue": "NRG Stadium"
     },
     {
       "iso": "2026-07-05T07:00:00",
@@ -873,7 +874,7 @@
       "broadcastConfirmed": true,
       "stage": "Round of 16",
       "revealAfter": "2026-07-02T09:00:00",
-      "city": "Philadelphia",
+      "city": "Philadelphia, Pennsylvania",
       "sideA": {
         "real": "🇵🇾 Paraguay",
         "safe": "🇩🇪 Germany/Paraguay 🇵🇾",
@@ -883,7 +884,8 @@
         "real": "France 🇫🇷",
         "safe": "🇫🇷 France/Sweden 🇸🇪",
         "revealAfter": "2026-07-02T09:00:00"
-      }
+      },
+      "venue": "Lincoln Financial Field"
     },
     {
       "iso": "2026-07-06T06:00:00",
@@ -895,7 +897,7 @@
       "broadcastConfirmed": true,
       "stage": "Round of 16",
       "revealAfter": "2026-07-02T05:00:00",
-      "city": "New Jersey",
+      "city": "East Rutherford, New Jersey",
       "sideA": {
         "real": "🇧🇷 Brazil",
         "safe": "🇧🇷 Brazil/Japan 🇯🇵",
@@ -905,7 +907,8 @@
         "real": "Norway 🇳🇴",
         "safe": "🇨🇮 Ivory Coast/Norway 🇳🇴",
         "revealAfter": "2026-07-02T05:00:00"
-      }
+      },
+      "venue": "MetLife Stadium"
     },
     {
       "iso": "2026-07-06T10:00:00",
@@ -927,7 +930,8 @@
         "real": "England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "safe": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England/DR Congo 🇨🇩",
         "revealAfter": "2026-07-03T04:00:00"
-      }
+      },
+      "venue": "Estadio Banorte"
     },
     {
       "iso": "2026-07-07T05:00:00",
@@ -939,7 +943,7 @@
       "broadcastConfirmed": true,
       "stage": "Round of 16",
       "revealAfter": "2026-07-04T11:00:00",
-      "city": "Dallas",
+      "city": "Arlington, Texas",
       "sideA": {
         "real": "🇵🇹 Portugal",
         "safe": "🇵🇹 Portugal/Croatia 🇭🇷",
@@ -949,7 +953,8 @@
         "real": "Spain 🇪🇸",
         "safe": "🇪🇸 Spain/Austria 🇦🇹",
         "revealAfter": "2026-07-04T07:00:00"
-      }
+      },
+      "venue": "AT&T Stadium"
     },
     {
       "iso": "2026-07-07T10:00:00",
@@ -961,7 +966,7 @@
       "broadcastConfirmed": true,
       "stage": "Round of 16",
       "revealAfter": "2026-07-03T12:00:00",
-      "city": "Seattle",
+      "city": "Seattle, Washington",
       "sideA": {
         "real": "🇺🇸 USA",
         "safe": "🇺🇸 USA/Bosnia-Herzegovina 🇧🇦",
@@ -971,7 +976,8 @@
         "real": "Belgium 🇧🇪",
         "safe": "🇧🇪 Belgium/Senegal 🇸🇳",
         "revealAfter": "2026-07-03T08:00:00"
-      }
+      },
+      "venue": "Lumen Field"
     },
     {
       "iso": "2026-07-08T02:00:00",
@@ -983,7 +989,7 @@
       "broadcastConfirmed": true,
       "stage": "Round of 16",
       "revealAfter": "2026-07-05T10:00:00",
-      "city": "Atlanta",
+      "city": "Atlanta, Georgia",
       "sideA": {
         "real": "🇦🇷 Argentina",
         "safe": "🇦🇷 Argentina/Cape Verde 🇨🇻",
@@ -993,7 +999,8 @@
         "real": "Egypt 🇪🇬",
         "safe": "🇦🇺 Australia/Egypt 🇪🇬",
         "revealAfter": "2026-07-05T06:00:00"
-      }
+      },
+      "venue": "Mercedes-Benz Stadium"
     },
     {
       "iso": "2026-07-08T06:00:00",
@@ -1015,26 +1022,30 @@
         "real": "Colombia 🇨🇴",
         "safe": "🇨🇴 Colombia/Ghana 🇬🇭",
         "revealAfter": "2026-07-05T13:30:00"
-      }
+      },
+      "venue": "BC Place"
     },
     {
       "iso": "2026-07-10T06:00:00",
       "dateStr": "10 July",
       "datetime": "10 July - 06:00 AEST",
-      "fixture": "🇵🇾 Paraguay/France 🇫🇷 vs 🇨🇦 Canada/Morocco 🇲🇦",
+      "fixture": "🇫🇷 France v Morocco 🇲🇦",
       "broadcast": "BBC",
       "broadcastConfirmed": false,
       "stage": "Quarterfinal",
-      "city": "Boston",
+      "city": "Foxborough, Massachusetts",
       "revealAfter": "2026-07-06T09:00:00",
       "sideA": {
         "safe": "🇵🇾 Paraguay/France 🇫🇷",
-        "revealAfter": "2026-07-06T09:00:00"
+        "revealAfter": "2026-07-06T09:00:00",
+        "real": "🇫🇷 France"
       },
       "sideB": {
         "safe": "🇨🇦 Canada/Morocco 🇲🇦",
-        "revealAfter": "2026-07-06T05:00:00"
-      }
+        "revealAfter": "2026-07-06T05:00:00",
+        "real": "Morocco 🇲🇦"
+      },
+      "venue": "Gillette Stadium"
     },
     {
       "iso": "2026-07-11T05:00:00",
@@ -1103,7 +1114,7 @@
       "stage": "Semifinal",
       "revealAfter": "2026-07-12T07:00:00",
       "sideA": {
-        "safe": "Winner (Quarterfinal 1)",
+        "safe": "🇫🇷 France/Morocco 🇲🇦",
         "revealAfter": "2026-07-11T08:00:00"
       },
       "sideB": {
