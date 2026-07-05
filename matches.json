@@ -851,7 +851,17 @@
       "broadcastConfirmed": true,
       "stage": "Round of 16",
       "revealAfter": "2026-07-01T13:00:00",
-      "city": "Houston"
+      "city": "Houston",
+      "sideA": {
+        "real": "🇨🇦 Canada",
+        "safe": "🇿🇦 South Africa/Canada 🇨🇦",
+        "revealAfter": "2026-06-30T07:00:00"
+      },
+      "sideB": {
+        "real": "Morocco 🇲🇦",
+        "safe": "🇳🇱 Netherlands/Morocco 🇲🇦",
+        "revealAfter": "2026-07-01T13:00:00"
+      }
     },
     {
       "iso": "2026-07-05T07:00:00",
@@ -863,7 +873,17 @@
       "broadcastConfirmed": true,
       "stage": "Round of 16",
       "revealAfter": "2026-07-02T09:00:00",
-      "city": "Philadelphia"
+      "city": "Philadelphia",
+      "sideA": {
+        "real": "🇵🇾 Paraguay",
+        "safe": "🇩🇪 Germany/Paraguay 🇵🇾",
+        "revealAfter": "2026-07-01T08:30:00"
+      },
+      "sideB": {
+        "real": "France 🇫🇷",
+        "safe": "🇫🇷 France/Sweden 🇸🇪",
+        "revealAfter": "2026-07-02T09:00:00"
+      }
     },
     {
       "iso": "2026-07-06T06:00:00",
@@ -875,7 +895,17 @@
       "broadcastConfirmed": true,
       "stage": "Round of 16",
       "revealAfter": "2026-07-02T05:00:00",
-      "city": "New Jersey"
+      "city": "New Jersey",
+      "sideA": {
+        "real": "🇧🇷 Brazil",
+        "safe": "🇧🇷 Brazil/Japan 🇯🇵",
+        "revealAfter": "2026-07-01T05:00:00"
+      },
+      "sideB": {
+        "real": "Norway 🇳🇴",
+        "safe": "🇨🇮 Ivory Coast/Norway 🇳🇴",
+        "revealAfter": "2026-07-02T05:00:00"
+      }
     },
     {
       "iso": "2026-07-06T10:00:00",
@@ -887,7 +917,17 @@
       "broadcastConfirmed": true,
       "stage": "Round of 16",
       "revealAfter": "2026-07-03T04:00:00",
-      "city": "Mexico City"
+      "city": "Mexico City",
+      "sideA": {
+        "real": "🇲🇽 Mexico",
+        "safe": "🇲🇽 Mexico/Ecuador 🇪🇨",
+        "revealAfter": "2026-07-02T13:00:00"
+      },
+      "sideB": {
+        "real": "England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "safe": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England/DR Congo 🇨🇩",
+        "revealAfter": "2026-07-03T04:00:00"
+      }
     },
     {
       "iso": "2026-07-07T05:00:00",
@@ -899,7 +939,17 @@
       "broadcastConfirmed": true,
       "stage": "Round of 16",
       "revealAfter": "2026-07-04T11:00:00",
-      "city": "Dallas"
+      "city": "Dallas",
+      "sideA": {
+        "real": "🇵🇹 Portugal",
+        "safe": "🇵🇹 Portugal/Croatia 🇭🇷",
+        "revealAfter": "2026-07-04T11:00:00"
+      },
+      "sideB": {
+        "real": "Spain 🇪🇸",
+        "safe": "🇪🇸 Spain/Austria 🇦🇹",
+        "revealAfter": "2026-07-04T07:00:00"
+      }
     },
     {
       "iso": "2026-07-07T10:00:00",
@@ -911,7 +961,17 @@
       "broadcastConfirmed": true,
       "stage": "Round of 16",
       "revealAfter": "2026-07-03T12:00:00",
-      "city": "Seattle"
+      "city": "Seattle",
+      "sideA": {
+        "real": "🇺🇸 USA",
+        "safe": "🇺🇸 USA/Bosnia-Herzegovina 🇧🇦",
+        "revealAfter": "2026-07-03T12:00:00"
+      },
+      "sideB": {
+        "real": "Belgium 🇧🇪",
+        "safe": "🇧🇪 Belgium/Senegal 🇸🇳",
+        "revealAfter": "2026-07-03T08:00:00"
+      }
     },
     {
       "iso": "2026-07-08T02:00:00",
@@ -923,7 +983,17 @@
       "broadcastConfirmed": true,
       "stage": "Round of 16",
       "revealAfter": "2026-07-05T10:00:00",
-      "city": "Atlanta"
+      "city": "Atlanta",
+      "sideA": {
+        "real": "🇦🇷 Argentina",
+        "safe": "🇦🇷 Argentina/Cape Verde 🇨🇻",
+        "revealAfter": "2026-07-05T10:00:00"
+      },
+      "sideB": {
+        "real": "Egypt 🇪🇬",
+        "safe": "🇦🇺 Australia/Egypt 🇪🇬",
+        "revealAfter": "2026-07-05T06:00:00"
+      }
     },
     {
       "iso": "2026-07-08T06:00:00",
@@ -935,7 +1005,17 @@
       "broadcastConfirmed": true,
       "stage": "Round of 16",
       "revealAfter": "2026-07-05T13:30:00",
-      "city": "Vancouver"
+      "city": "Vancouver",
+      "sideA": {
+        "real": "🇨🇭 Switzerland",
+        "safe": "🇨🇭 Switzerland/Algeria 🇩🇿",
+        "revealAfter": "2026-07-04T15:00:00"
+      },
+      "sideB": {
+        "real": "Colombia 🇨🇴",
+        "safe": "🇨🇴 Colombia/Ghana 🇬🇭",
+        "revealAfter": "2026-07-05T13:30:00"
+      }
     },
     {
       "iso": "2026-07-10T06:00:00",
@@ -946,7 +1026,15 @@
       "broadcastConfirmed": false,
       "stage": "Quarterfinal",
       "city": "Boston",
-      "revealAfter": "2026-07-06T09:00:00"
+      "revealAfter": "2026-07-06T09:00:00",
+      "sideA": {
+        "safe": "🇵🇾 Paraguay/France 🇫🇷",
+        "revealAfter": "2026-07-06T09:00:00"
+      },
+      "sideB": {
+        "safe": "🇨🇦 Canada/Morocco 🇲🇦",
+        "revealAfter": "2026-07-06T05:00:00"
+      }
     },
     {
       "iso": "2026-07-11T05:00:00",
@@ -957,7 +1045,15 @@
       "broadcastConfirmed": false,
       "stage": "Quarterfinal",
       "city": "Los Angeles",
-      "revealAfter": "2026-07-08T12:00:00"
+      "revealAfter": "2026-07-08T12:00:00",
+      "sideA": {
+        "safe": "🇵🇹 Portugal/Spain 🇪🇸",
+        "revealAfter": "2026-07-08T07:00:00"
+      },
+      "sideB": {
+        "safe": "🇺🇸 USA/Belgium 🇧🇪",
+        "revealAfter": "2026-07-08T12:00:00"
+      }
     },
     {
       "iso": "2026-07-12T07:00:00",
@@ -968,7 +1064,15 @@
       "broadcastConfirmed": false,
       "stage": "Quarterfinal",
       "city": "Miami",
-      "revealAfter": "2026-07-07T12:00:00"
+      "revealAfter": "2026-07-07T12:00:00",
+      "sideA": {
+        "safe": "🇧🇷 Brazil/Norway 🇳🇴",
+        "revealAfter": "2026-07-07T08:00:00"
+      },
+      "sideB": {
+        "safe": "🇲🇽 Mexico/England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "revealAfter": "2026-07-07T12:00:00"
+      }
     },
     {
       "iso": "2026-07-12T11:00:00",
@@ -979,7 +1083,15 @@
       "broadcastConfirmed": false,
       "stage": "Quarterfinal",
       "city": "Kansas City",
-      "revealAfter": "2026-07-09T08:00:00"
+      "revealAfter": "2026-07-09T08:00:00",
+      "sideA": {
+        "safe": "🇦🇷 Argentina/Egypt 🇪🇬",
+        "revealAfter": "2026-07-09T04:00:00"
+      },
+      "sideB": {
+        "safe": "🇨🇭 Switzerland/Colombia 🇨🇴",
+        "revealAfter": "2026-07-09T08:00:00"
+      }
     },
     {
       "iso": "2026-07-15T05:00:00",
@@ -989,7 +1101,15 @@
       "broadcast": "BOTH",
       "broadcastConfirmed": true,
       "stage": "Semifinal",
-      "revealAfter": "2026-07-12T07:00:00"
+      "revealAfter": "2026-07-12T07:00:00",
+      "sideA": {
+        "safe": "Winner (Quarterfinal 1)",
+        "revealAfter": "2026-07-11T08:00:00"
+      },
+      "sideB": {
+        "safe": "Winner (Quarterfinal 2)",
+        "revealAfter": "2026-07-12T07:00:00"
+      }
     },
     {
       "iso": "2026-07-16T05:00:00",
@@ -999,7 +1119,15 @@
       "broadcast": "BOTH",
       "broadcastConfirmed": true,
       "stage": "Semifinal",
-      "revealAfter": "2026-07-13T13:00:00"
+      "revealAfter": "2026-07-13T13:00:00",
+      "sideA": {
+        "safe": "Winner (Quarterfinal 3)",
+        "revealAfter": "2026-07-13T09:00:00"
+      },
+      "sideB": {
+        "safe": "Winner (Quarterfinal 4)",
+        "revealAfter": "2026-07-13T13:00:00"
+      }
     },
     {
       "iso": "2026-07-19T07:00:00",
@@ -1009,7 +1137,15 @@
       "broadcast": "BBC",
       "broadcastConfirmed": false,
       "stage": "Third-Place Playoff",
-      "revealAfter": "2026-07-17T07:00:00"
+      "revealAfter": "2026-07-17T07:00:00",
+      "sideA": {
+        "safe": "Loser (Semifinal 1)",
+        "revealAfter": "2026-07-16T07:00:00"
+      },
+      "sideB": {
+        "safe": "Loser (Semifinal 2)",
+        "revealAfter": "2026-07-17T07:00:00"
+      }
     },
     {
       "iso": "2026-07-20T05:00:00",
@@ -1019,7 +1155,15 @@
       "broadcast": "BOTH",
       "broadcastConfirmed": true,
       "stage": "Final",
-      "revealAfter": "2026-07-17T07:00:00"
+      "revealAfter": "2026-07-17T07:00:00",
+      "sideA": {
+        "safe": "Winner (Semifinal 1)",
+        "revealAfter": "2026-07-16T07:00:00"
+      },
+      "sideB": {
+        "safe": "Winner (Semifinal 2)",
+        "revealAfter": "2026-07-17T07:00:00"
+      }
     }
   ]
 }
