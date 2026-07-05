@@ -1,0 +1,1169 @@
+{
+  "updated": null,
+  "matches": [
+    {
+      "iso": "2026-06-12T05:00:00",
+      "dateStr": "12 June",
+      "datetime": "12 June - 05:00 AEST",
+      "fixture": "🇲🇽 Mexico v South Africa 🇿🇦",
+      "broadcast": "ITV",
+      "broadcastConfirmed": true,
+      "stage": "Group A"
+    },
+    {
+      "iso": "2026-06-12T11:00:00",
+      "dateStr": "12 June",
+      "datetime": "12 June - 11:00 AEST",
+      "fixture": "🇰🇷 South Korea v Czech Republic 🇨🇿",
+      "broadcast": "ITV",
+      "broadcastConfirmed": true,
+      "stage": "Group A"
+    },
+    {
+      "iso": "2026-06-13T05:00:00",
+      "dateStr": "13 June",
+      "datetime": "13 June - 05:00 AEST",
+      "fixture": "🇨🇦 Canada v Bosnia-Herzegovina 🇧🇦",
+      "broadcast": "BBC",
+      "broadcastConfirmed": true,
+      "stage": "Group B"
+    },
+    {
+      "iso": "2026-06-13T09:00:00",
+      "dateStr": "13 June",
+      "datetime": "13 June - 09:00 AEST",
+      "fixture": "🇶🇦 Qatar v Switzerland 🇨🇭",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group B"
+    },
+    {
+      "iso": "2026-06-14T05:00:00",
+      "dateStr": "14 June",
+      "datetime": "14 June - 05:00 AEST",
+      "fixture": "🇹🇷 Turkey v Australia 🇦🇺",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group D"
+    },
+    {
+      "iso": "2026-06-14T11:00:00",
+      "dateStr": "14 June",
+      "datetime": "14 June - 11:00 AEST",
+      "fixture": "🇺🇸 USA v Paraguay 🇵🇾",
+      "broadcast": "BBC",
+      "broadcastConfirmed": true,
+      "stage": "Group D"
+    },
+    {
+      "iso": "2026-06-14T14:00:00",
+      "dateStr": "14 June",
+      "datetime": "14 June - 14:00 AEST",
+      "fixture": "🇧🇷 Brazil v Morocco 🇲🇦",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group C"
+    },
+    {
+      "iso": "2026-06-14T17:00:00",
+      "dateStr": "14 June",
+      "datetime": "14 June - 17:00 AEST",
+      "fixture": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland v Haiti 🇭🇹",
+      "broadcast": "BBC",
+      "broadcastConfirmed": true,
+      "stage": "Group C"
+    },
+    {
+      "iso": "2026-06-15T02:00:00",
+      "dateStr": "15 June",
+      "datetime": "15 June - 02:00 AEST",
+      "fixture": "🇳🇱 Netherlands v Japan 🇯🇵",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group F"
+    },
+    {
+      "iso": "2026-06-15T05:00:00",
+      "dateStr": "15 June",
+      "datetime": "15 June - 05:00 AEST",
+      "fixture": "🇸🇪 Sweden v Tunisia 🇹🇳",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group F"
+    },
+    {
+      "iso": "2026-06-15T09:00:00",
+      "dateStr": "15 June",
+      "datetime": "15 June - 09:00 AEST",
+      "fixture": "🇩🇪 Germany v Curaçao 🇨🇼",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group E"
+    },
+    {
+      "iso": "2026-06-15T12:00:00",
+      "dateStr": "15 June",
+      "datetime": "15 June - 12:00 AEST",
+      "fixture": "🇨🇮 Ivory Coast v Ecuador 🇪🇨",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group E"
+    },
+    {
+      "iso": "2026-06-16T02:00:00",
+      "dateStr": "16 June",
+      "datetime": "16 June - 02:00 AEST",
+      "fixture": "🇧🇪 Belgium v Egypt 🇪🇬",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group G"
+    },
+    {
+      "iso": "2026-06-16T05:00:00",
+      "dateStr": "16 June",
+      "datetime": "16 June - 05:00 AEST",
+      "fixture": "🇮🇷 Iran v New Zealand 🇳🇿",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group G"
+    },
+    {
+      "iso": "2026-06-16T09:00:00",
+      "dateStr": "16 June",
+      "datetime": "16 June - 09:00 AEST",
+      "fixture": "🇪🇸 Spain v Cape Verde 🇨🇻",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group H"
+    },
+    {
+      "iso": "2026-06-16T12:00:00",
+      "dateStr": "16 June",
+      "datetime": "16 June - 12:00 AEST",
+      "fixture": "🇸🇦 Saudi Arabia v Uruguay 🇺🇾",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group H"
+    },
+    {
+      "iso": "2026-06-17T05:00:00",
+      "dateStr": "17 June",
+      "datetime": "17 June - 05:00 AEST",
+      "fixture": "🇫🇷 France v Senegal 🇸🇳",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group I"
+    },
+    {
+      "iso": "2026-06-17T08:00:00",
+      "dateStr": "17 June",
+      "datetime": "17 June - 08:00 AEST",
+      "fixture": "🇳🇴 Norway v Iraq 🇮🇶",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group I"
+    },
+    {
+      "iso": "2026-06-17T11:00:00",
+      "dateStr": "17 June",
+      "datetime": "17 June - 11:00 AEST",
+      "fixture": "🇦🇷 Argentina v Algeria 🇩🇿",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group J"
+    },
+    {
+      "iso": "2026-06-17T14:00:00",
+      "dateStr": "17 June",
+      "datetime": "17 June - 14:00 AEST",
+      "fixture": "🇦🇹 Austria v Jordan 🇯🇴",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group J"
+    },
+    {
+      "iso": "2026-06-18T02:00:00",
+      "dateStr": "18 June",
+      "datetime": "18 June - 02:00 AEST",
+      "fixture": "🇵🇹 Portugal v DR Congo 🇨🇩",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group K"
+    },
+    {
+      "iso": "2026-06-18T05:00:00",
+      "dateStr": "18 June",
+      "datetime": "18 June - 05:00 AEST",
+      "fixture": "🇺🇿 Uzbekistan v Colombia 🇨🇴",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group K"
+    },
+    {
+      "iso": "2026-06-18T09:00:00",
+      "dateStr": "18 June",
+      "datetime": "18 June - 09:00 AEST",
+      "fixture": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England v Croatia 🇭🇷",
+      "broadcast": "ITV",
+      "broadcastConfirmed": true,
+      "stage": "Group L"
+    },
+    {
+      "iso": "2026-06-18T12:00:00",
+      "dateStr": "18 June",
+      "datetime": "18 June - 12:00 AEST",
+      "fixture": "🇬🇭 Ghana v Panama 🇵🇦",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group L"
+    },
+    {
+      "iso": "2026-06-19T02:00:00",
+      "dateStr": "19 June",
+      "datetime": "19 June - 02:00 AEST",
+      "fixture": "🇲🇽 Mexico v South Korea 🇰🇷",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group A"
+    },
+    {
+      "iso": "2026-06-19T05:00:00",
+      "dateStr": "19 June",
+      "datetime": "19 June - 05:00 AEST",
+      "fixture": "🇨🇿 Czech Republic v South Africa 🇿🇦",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group A"
+    },
+    {
+      "iso": "2026-06-19T09:00:00",
+      "dateStr": "19 June",
+      "datetime": "19 June - 09:00 AEST",
+      "fixture": "🇨🇭 Switzerland v Bosnia-Herzegovina 🇧🇦",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group B"
+    },
+    {
+      "iso": "2026-06-19T12:00:00",
+      "dateStr": "19 June",
+      "datetime": "19 June - 12:00 AEST",
+      "fixture": "🇨🇦 Canada v Qatar 🇶🇦",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group B"
+    },
+    {
+      "iso": "2026-06-20T02:00:00",
+      "dateStr": "20 June",
+      "datetime": "20 June - 02:00 AEST",
+      "fixture": "🇺🇸 USA v Australia 🇦🇺",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group D"
+    },
+    {
+      "iso": "2026-06-20T05:00:00",
+      "dateStr": "20 June",
+      "datetime": "20 June - 05:00 AEST",
+      "fixture": "🇹🇷 Turkey v Paraguay 🇵🇾",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group D"
+    },
+    {
+      "iso": "2026-06-20T09:00:00",
+      "dateStr": "20 June",
+      "datetime": "20 June - 09:00 AEST",
+      "fixture": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland v Morocco 🇲🇦",
+      "broadcast": "ITV",
+      "broadcastConfirmed": true,
+      "stage": "Group C"
+    },
+    {
+      "iso": "2026-06-20T12:00:00",
+      "dateStr": "20 June",
+      "datetime": "20 June - 12:00 AEST",
+      "fixture": "🇧🇷 Brazil v Haiti 🇭🇹",
+      "broadcast": "ITV",
+      "broadcastConfirmed": true,
+      "stage": "Group C"
+    },
+    {
+      "iso": "2026-06-21T02:00:00",
+      "dateStr": "21 June",
+      "datetime": "21 June - 02:00 AEST",
+      "fixture": "🇳🇱 Netherlands v Sweden 🇸🇪",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group F"
+    },
+    {
+      "iso": "2026-06-21T05:00:00",
+      "dateStr": "21 June",
+      "datetime": "21 June - 05:00 AEST",
+      "fixture": "🇯🇵 Japan v Tunisia 🇹🇳",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group F"
+    },
+    {
+      "iso": "2026-06-21T09:00:00",
+      "dateStr": "21 June",
+      "datetime": "21 June - 09:00 AEST",
+      "fixture": "🇩🇪 Germany v Ivory Coast 🇨🇮",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group E"
+    },
+    {
+      "iso": "2026-06-21T12:00:00",
+      "dateStr": "21 June",
+      "datetime": "21 June - 12:00 AEST",
+      "fixture": "🇪🇨 Ecuador v Curaçao 🇨🇼",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group E"
+    },
+    {
+      "iso": "2026-06-22T05:00:00",
+      "dateStr": "22 June",
+      "datetime": "22 June - 05:00 AEST",
+      "fixture": "🇧🇪 Belgium v Iran 🇮🇷",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group G"
+    },
+    {
+      "iso": "2026-06-22T08:00:00",
+      "dateStr": "22 June",
+      "datetime": "22 June - 08:00 AEST",
+      "fixture": "🇪🇬 Egypt v New Zealand 🇳🇿",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group G"
+    },
+    {
+      "iso": "2026-06-23T02:00:00",
+      "dateStr": "23 June",
+      "datetime": "23 June - 02:00 AEST",
+      "fixture": "🇪🇸 Spain v Saudi Arabia 🇸🇦",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group H"
+    },
+    {
+      "iso": "2026-06-23T05:00:00",
+      "dateStr": "23 June",
+      "datetime": "23 June - 05:00 AEST",
+      "fixture": "🇺🇾 Uruguay v Cape Verde 🇨🇻",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group H"
+    },
+    {
+      "iso": "2026-06-23T09:00:00",
+      "dateStr": "23 June",
+      "datetime": "23 June - 09:00 AEST",
+      "fixture": "🇫🇷 France v Iraq 🇮🇶",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group I"
+    },
+    {
+      "iso": "2026-06-23T12:00:00",
+      "dateStr": "23 June",
+      "datetime": "23 June - 12:00 AEST",
+      "fixture": "🇳🇴 Norway v Senegal 🇸🇳",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group I"
+    },
+    {
+      "iso": "2026-06-24T02:00:00",
+      "dateStr": "24 June",
+      "datetime": "24 June - 02:00 AEST",
+      "fixture": "🇵🇹 Portugal v Uzbekistan 🇺🇿",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group K"
+    },
+    {
+      "iso": "2026-06-24T05:00:00",
+      "dateStr": "24 June",
+      "datetime": "24 June - 05:00 AEST",
+      "fixture": "🇨🇴 Colombia v DR Congo 🇨🇩",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group K"
+    },
+    {
+      "iso": "2026-06-24T09:00:00",
+      "dateStr": "24 June",
+      "datetime": "24 June - 09:00 AEST",
+      "fixture": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England v Ghana 🇬🇭",
+      "broadcast": "BBC",
+      "broadcastConfirmed": true,
+      "stage": "Group L"
+    },
+    {
+      "iso": "2026-06-24T12:00:00",
+      "dateStr": "24 June",
+      "datetime": "24 June - 12:00 AEST",
+      "fixture": "🇵🇦 Panama v Croatia 🇭🇷",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group L"
+    },
+    {
+      "iso": "2026-06-24T15:00:00",
+      "dateStr": "24 June",
+      "datetime": "24 June - 15:00 AEST",
+      "fixture": "🇦🇷 Argentina v Austria 🇦🇹",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group J"
+    },
+    {
+      "iso": "2026-06-24T18:00:00",
+      "dateStr": "24 June",
+      "datetime": "24 June - 18:00 AEST",
+      "fixture": "🇯🇴 Jordan v Algeria 🇩🇿",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group J"
+    },
+    {
+      "iso": "2026-06-25T02:00:00",
+      "dateStr": "25 June",
+      "datetime": "25 June - 02:00 AEST",
+      "fixture": "🇲🇽 Mexico v Czech Republic 🇨🇿",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group A"
+    },
+    {
+      "iso": "2026-06-25T02:00:00",
+      "dateStr": "25 June",
+      "datetime": "25 June - 02:00 AEST",
+      "fixture": "🇿🇦 South Africa v South Korea 🇰🇷",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group A"
+    },
+    {
+      "iso": "2026-06-25T09:00:00",
+      "dateStr": "25 June",
+      "datetime": "25 June - 09:00 AEST",
+      "fixture": "🇨🇭 Switzerland v Canada 🇨🇦",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group B"
+    },
+    {
+      "iso": "2026-06-25T09:00:00",
+      "dateStr": "25 June",
+      "datetime": "25 June - 09:00 AEST",
+      "fixture": "🇧🇦 Bosnia-Herzegovina v Qatar 🇶🇦",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group B"
+    },
+    {
+      "iso": "2026-06-25T12:00:00",
+      "dateStr": "25 June",
+      "datetime": "25 June - 12:00 AEST",
+      "fixture": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland v Brazil 🇧🇷",
+      "broadcast": "BBC",
+      "broadcastConfirmed": true,
+      "stage": "Group C"
+    },
+    {
+      "iso": "2026-06-25T12:00:00",
+      "dateStr": "25 June",
+      "datetime": "25 June - 12:00 AEST",
+      "fixture": "🇲🇦 Morocco v Haiti 🇭🇹",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group C"
+    },
+    {
+      "iso": "2026-06-26T02:00:00",
+      "dateStr": "26 June",
+      "datetime": "26 June - 02:00 AEST",
+      "fixture": "🇹🇷 Turkey v USA 🇺🇸",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group D"
+    },
+    {
+      "iso": "2026-06-26T02:00:00",
+      "dateStr": "26 June",
+      "datetime": "26 June - 02:00 AEST",
+      "fixture": "🇵🇾 Paraguay v Australia 🇦🇺",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group D"
+    },
+    {
+      "iso": "2026-06-26T09:00:00",
+      "dateStr": "26 June",
+      "datetime": "26 June - 09:00 AEST",
+      "fixture": "🇪🇨 Ecuador v Germany 🇩🇪",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group E"
+    },
+    {
+      "iso": "2026-06-26T09:00:00",
+      "dateStr": "26 June",
+      "datetime": "26 June - 09:00 AEST",
+      "fixture": "🇨🇼 Curaçao v Ivory Coast 🇨🇮",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group E"
+    },
+    {
+      "iso": "2026-06-26T12:00:00",
+      "dateStr": "26 June",
+      "datetime": "26 June - 12:00 AEST",
+      "fixture": "🇳🇱 Netherlands v Tunisia 🇹🇳",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group F"
+    },
+    {
+      "iso": "2026-06-26T12:00:00",
+      "dateStr": "26 June",
+      "datetime": "26 June - 12:00 AEST",
+      "fixture": "🇯🇵 Japan v Sweden 🇸🇪",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group F"
+    },
+    {
+      "iso": "2026-06-27T02:00:00",
+      "dateStr": "27 June",
+      "datetime": "27 June - 02:00 AEST",
+      "fixture": "🇧🇪 Belgium v New Zealand 🇳🇿",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group G"
+    },
+    {
+      "iso": "2026-06-27T02:00:00",
+      "dateStr": "27 June",
+      "datetime": "27 June - 02:00 AEST",
+      "fixture": "🇪🇬 Egypt v Iran 🇮🇷",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group G"
+    },
+    {
+      "iso": "2026-06-27T05:00:00",
+      "dateStr": "27 June",
+      "datetime": "27 June - 05:00 AEST",
+      "fixture": "🇪🇸 Spain v Uruguay 🇺🇾",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group H"
+    },
+    {
+      "iso": "2026-06-27T05:00:00",
+      "dateStr": "27 June",
+      "datetime": "27 June - 05:00 AEST",
+      "fixture": "🇨🇻 Cape Verde v Saudi Arabia 🇸🇦",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group H"
+    },
+    {
+      "iso": "2026-06-27T11:00:00",
+      "dateStr": "27 June",
+      "datetime": "27 June - 11:00 AEST",
+      "fixture": "🇳🇴 Norway v France 🇫🇷",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group I"
+    },
+    {
+      "iso": "2026-06-27T11:00:00",
+      "dateStr": "27 June",
+      "datetime": "27 June - 11:00 AEST",
+      "fixture": "🇸🇳 Senegal v Iraq 🇮🇶",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group I"
+    },
+    {
+      "iso": "2026-06-28T02:00:00",
+      "dateStr": "28 June",
+      "datetime": "28 June - 02:00 AEST",
+      "fixture": "🇦🇷 Argentina v Jordan 🇯🇴",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Group J"
+    },
+    {
+      "iso": "2026-06-28T02:00:00",
+      "dateStr": "28 June",
+      "datetime": "28 June - 02:00 AEST",
+      "fixture": "🇦🇹 Austria v Algeria 🇩🇿",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group J"
+    },
+    {
+      "iso": "2026-06-28T09:00:00",
+      "dateStr": "28 June",
+      "datetime": "28 June - 09:00 AEST",
+      "fixture": "🇵🇹 Portugal v Colombia 🇨🇴",
+      "broadcast": "BBC",
+      "broadcastConfirmed": true,
+      "stage": "Group K"
+    },
+    {
+      "iso": "2026-06-28T09:00:00",
+      "dateStr": "28 June",
+      "datetime": "28 June - 09:00 AEST",
+      "fixture": "🇨🇩 DR Congo v Uzbekistan 🇺🇿",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Group K"
+    },
+    {
+      "iso": "2026-06-28T12:00:00",
+      "dateStr": "28 June",
+      "datetime": "28 June - 12:00 AEST",
+      "fixture": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England v Panama 🇵🇦",
+      "broadcast": "ITV",
+      "broadcastConfirmed": true,
+      "stage": "Group L"
+    },
+    {
+      "iso": "2026-06-28T12:00:00",
+      "dateStr": "28 June",
+      "datetime": "28 June - 12:00 AEST",
+      "fixture": "🇭🇷 Croatia v Ghana 🇬🇭",
+      "broadcast": "ITV",
+      "broadcastConfirmed": true,
+      "stage": "Group L"
+    },
+    {
+      "iso": "2026-06-29T05:00:00",
+      "dateStr": "29 June",
+      "datetime": "29 June - 05:00 AEST",
+      "fixture": "🇿🇦 South Africa v Canada 🇨🇦",
+      "safeFixture": "Group A qualifier v Group B qualifier",
+      "broadcast": "ITV",
+      "broadcastConfirmed": true,
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-26T11:00:00",
+      "city": "Los Angeles"
+    },
+    {
+      "iso": "2026-06-30T03:00:00",
+      "dateStr": "30 June",
+      "datetime": "30 June - 03:00 AEST",
+      "fixture": "🇧🇷 Brazil v Japan 🇯🇵",
+      "safeFixture": "Group C qualifier v Group F qualifier",
+      "broadcast": "ITV",
+      "broadcastConfirmed": true,
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-27T14:00:00",
+      "city": "Houston"
+    },
+    {
+      "iso": "2026-06-30T06:30:00",
+      "dateStr": "30 June",
+      "datetime": "30 June - 06:30 AEST",
+      "fixture": "🇩🇪 Germany v Paraguay 🇵🇾",
+      "safeFixture": "Group E qualifier v Group D qualifier",
+      "broadcast": "BBC",
+      "broadcastConfirmed": true,
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-27T11:00:00",
+      "city": "Foxborough"
+    },
+    {
+      "iso": "2026-06-30T11:00:00",
+      "dateStr": "30 June",
+      "datetime": "30 June - 11:00 AEST",
+      "fixture": "🇳🇱 Netherlands v Morocco 🇲🇦",
+      "safeFixture": "Group F qualifier v Group C qualifier",
+      "broadcast": "ITV",
+      "broadcastConfirmed": true,
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-27T14:00:00",
+      "city": "Guadalupe"
+    },
+    {
+      "iso": "2026-07-01T03:00:00",
+      "dateStr": "1 July",
+      "datetime": "1 July - 03:00 AEST",
+      "fixture": "🇨🇮 Ivory Coast v Norway 🇳🇴",
+      "safeFixture": "Group E qualifier v Group I qualifier",
+      "broadcast": "BBC",
+      "broadcastConfirmed": true,
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-28T13:00:00",
+      "city": "Arlington"
+    },
+    {
+      "iso": "2026-07-01T07:00:00",
+      "dateStr": "1 July",
+      "datetime": "1 July - 07:00 AEST",
+      "fixture": "🇫🇷 France v Sweden 🇸🇪",
+      "safeFixture": "Group I qualifier v Group F qualifier",
+      "broadcast": "ITV",
+      "broadcastConfirmed": true,
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-28T13:00:00",
+      "city": "New Jersey"
+    },
+    {
+      "iso": "2026-07-01T11:00:00",
+      "dateStr": "1 July",
+      "datetime": "1 July - 11:00 AEST",
+      "fixture": "🇲🇽 Mexico v Ecuador 🇪🇨",
+      "safeFixture": "Group A qualifier v Group E qualifier",
+      "broadcast": "ITV",
+      "broadcastConfirmed": true,
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-27T11:00:00",
+      "city": "Mexico City"
+    },
+    {
+      "iso": "2026-07-02T02:00:00",
+      "dateStr": "2 July",
+      "datetime": "2 July - 02:00 AEST",
+      "fixture": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England v DR Congo 🇨🇩",
+      "safeFixture": "Group L qualifier v Group K qualifier",
+      "broadcast": "BBC",
+      "broadcastConfirmed": true,
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-29T14:00:00",
+      "city": "Atlanta"
+    },
+    {
+      "iso": "2026-07-02T06:00:00",
+      "dateStr": "2 July",
+      "datetime": "2 July - 06:00 AEST",
+      "fixture": "🇧🇪 Belgium v Senegal 🇸🇳",
+      "safeFixture": "Group G qualifier v Group I qualifier",
+      "broadcast": "ITV",
+      "broadcastConfirmed": true,
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-28T13:00:00",
+      "city": "Seattle"
+    },
+    {
+      "iso": "2026-07-02T10:00:00",
+      "dateStr": "2 July",
+      "datetime": "2 July - 10:00 AEST",
+      "fixture": "🇺🇸 USA v Bosnia-Herzegovina 🇧🇦",
+      "safeFixture": "Group D qualifier v Group B qualifier",
+      "broadcast": "BBC",
+      "broadcastConfirmed": true,
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-27T04:00:00",
+      "city": "Santa Clara"
+    },
+    {
+      "iso": "2026-07-03T05:00:00",
+      "dateStr": "3 July",
+      "datetime": "3 July - 05:00 AEST",
+      "fixture": "🇪🇸 Spain v Austria 🇦🇹",
+      "safeFixture": "Group H qualifier v Group J qualifier",
+      "broadcast": "BBC",
+      "broadcastConfirmed": true,
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-29T04:00:00",
+      "city": "Los Angeles"
+    },
+    {
+      "iso": "2026-07-03T09:00:00",
+      "dateStr": "3 July",
+      "datetime": "3 July - 09:00 AEST",
+      "fixture": "🇵🇹 Portugal v Croatia 🇭🇷",
+      "safeFixture": "Group K qualifier v Group L qualifier",
+      "broadcast": "BBC",
+      "broadcastConfirmed": true,
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-29T14:00:00",
+      "city": "Toronto"
+    },
+    {
+      "iso": "2026-07-03T13:00:00",
+      "dateStr": "3 July",
+      "datetime": "3 July - 13:00 AEST",
+      "fixture": "🇨🇭 Switzerland v Algeria 🇩🇿",
+      "safeFixture": "Group B qualifier v Group J qualifier",
+      "broadcast": "BBC",
+      "broadcastConfirmed": true,
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-29T04:00:00",
+      "city": "Vancouver"
+    },
+    {
+      "iso": "2026-07-04T04:00:00",
+      "dateStr": "4 July",
+      "datetime": "4 July - 04:00 AEST",
+      "fixture": "🇦🇺 Australia v Egypt 🇪🇬",
+      "safeFixture": "Group D qualifier v Group G qualifier",
+      "broadcast": "BBC",
+      "broadcastConfirmed": true,
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-28T04:00:00",
+      "city": "Arlington"
+    },
+    {
+      "iso": "2026-07-04T08:00:00",
+      "dateStr": "4 July",
+      "datetime": "4 July - 08:00 AEST",
+      "fixture": "🇦🇷 Argentina v Cape Verde 🇨🇻",
+      "safeFixture": "Group J qualifier v Group H qualifier",
+      "broadcast": "ITV",
+      "broadcastConfirmed": true,
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-29T04:00:00",
+      "city": "Miami"
+    },
+    {
+      "iso": "2026-07-04T11:30:00",
+      "dateStr": "4 July",
+      "datetime": "4 July - 11:30 AEST",
+      "fixture": "🇨🇴 Colombia v Ghana 🇬🇭",
+      "safeFixture": "Group K qualifier v Group L qualifier",
+      "broadcast": "ITV",
+      "broadcastConfirmed": true,
+      "stage": "Round of 32",
+      "revealAfter": "2026-06-29T14:00:00",
+      "city": "Kansas City"
+    },
+    {
+      "iso": "2026-07-05T03:00:00",
+      "dateStr": "5 July",
+      "datetime": "5 July - 03:00 AEST",
+      "fixture": "🇨🇦 Canada v Morocco 🇲🇦",
+      "safeFixture": "🇿🇦 South Africa/Canada 🇨🇦 vs 🇳🇱 Netherlands/Morocco 🇲🇦",
+      "broadcast": "ITV",
+      "broadcastConfirmed": true,
+      "stage": "Round of 16",
+      "revealAfter": "2026-07-01T13:00:00",
+      "city": "Houston",
+      "sideA": {
+        "real": "🇨🇦 Canada",
+        "safe": "🇿🇦 South Africa/Canada 🇨🇦",
+        "revealAfter": "2026-06-30T07:00:00"
+      },
+      "sideB": {
+        "real": "Morocco 🇲🇦",
+        "safe": "🇳🇱 Netherlands/Morocco 🇲🇦",
+        "revealAfter": "2026-07-01T13:00:00"
+      }
+    },
+    {
+      "iso": "2026-07-05T07:00:00",
+      "dateStr": "5 July",
+      "datetime": "5 July - 07:00 AEST",
+      "fixture": "🇵🇾 Paraguay v France 🇫🇷",
+      "safeFixture": "🇩🇪 Germany/Paraguay 🇵🇾 vs 🇫🇷 France/Sweden 🇸🇪",
+      "broadcast": "BBC",
+      "broadcastConfirmed": true,
+      "stage": "Round of 16",
+      "revealAfter": "2026-07-02T09:00:00",
+      "city": "Philadelphia",
+      "sideA": {
+        "real": "🇵🇾 Paraguay",
+        "safe": "🇩🇪 Germany/Paraguay 🇵🇾",
+        "revealAfter": "2026-07-01T08:30:00"
+      },
+      "sideB": {
+        "real": "France 🇫🇷",
+        "safe": "🇫🇷 France/Sweden 🇸🇪",
+        "revealAfter": "2026-07-02T09:00:00"
+      }
+    },
+    {
+      "iso": "2026-07-06T06:00:00",
+      "dateStr": "6 July",
+      "datetime": "6 July - 06:00 AEST",
+      "fixture": "🇧🇷 Brazil v Norway 🇳🇴",
+      "safeFixture": "🇧🇷 Brazil/Japan 🇯🇵 vs 🇨🇮 Ivory Coast/Norway 🇳🇴",
+      "broadcast": "ITV",
+      "broadcastConfirmed": true,
+      "stage": "Round of 16",
+      "revealAfter": "2026-07-02T05:00:00",
+      "city": "New Jersey",
+      "sideA": {
+        "real": "🇧🇷 Brazil",
+        "safe": "🇧🇷 Brazil/Japan 🇯🇵",
+        "revealAfter": "2026-07-01T05:00:00"
+      },
+      "sideB": {
+        "real": "Norway 🇳🇴",
+        "safe": "🇨🇮 Ivory Coast/Norway 🇳🇴",
+        "revealAfter": "2026-07-02T05:00:00"
+      }
+    },
+    {
+      "iso": "2026-07-06T10:00:00",
+      "dateStr": "6 July",
+      "datetime": "6 July - 10:00 AEST",
+      "fixture": "🇲🇽 Mexico v England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "safeFixture": "🇲🇽 Mexico/Ecuador 🇪🇨 vs 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England/DR Congo 🇨🇩",
+      "broadcast": "BBC",
+      "broadcastConfirmed": true,
+      "stage": "Round of 16",
+      "revealAfter": "2026-07-03T04:00:00",
+      "city": "Mexico City",
+      "sideA": {
+        "real": "🇲🇽 Mexico",
+        "safe": "🇲🇽 Mexico/Ecuador 🇪🇨",
+        "revealAfter": "2026-07-02T13:00:00"
+      },
+      "sideB": {
+        "real": "England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "safe": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England/DR Congo 🇨🇩",
+        "revealAfter": "2026-07-03T04:00:00"
+      }
+    },
+    {
+      "iso": "2026-07-07T05:00:00",
+      "dateStr": "7 July",
+      "datetime": "7 July - 05:00 AEST",
+      "fixture": "🇵🇹 Portugal v Spain 🇪🇸",
+      "safeFixture": "🇵🇹 Portugal/Croatia 🇭🇷 vs 🇪🇸 Spain/Austria 🇦🇹",
+      "broadcast": "BBC",
+      "broadcastConfirmed": true,
+      "stage": "Round of 16",
+      "revealAfter": "2026-07-04T11:00:00",
+      "city": "Dallas",
+      "sideA": {
+        "real": "🇵🇹 Portugal",
+        "safe": "🇵🇹 Portugal/Croatia 🇭🇷",
+        "revealAfter": "2026-07-04T11:00:00"
+      },
+      "sideB": {
+        "real": "Spain 🇪🇸",
+        "safe": "🇪🇸 Spain/Austria 🇦🇹",
+        "revealAfter": "2026-07-04T07:00:00"
+      }
+    },
+    {
+      "iso": "2026-07-07T10:00:00",
+      "dateStr": "7 July",
+      "datetime": "7 July - 10:00 AEST",
+      "fixture": "🇺🇸 USA v Belgium 🇧🇪",
+      "safeFixture": "🇺🇸 USA/Bosnia-Herzegovina 🇧🇦 vs 🇧🇪 Belgium/Senegal 🇸🇳",
+      "broadcast": "BBC",
+      "broadcastConfirmed": true,
+      "stage": "Round of 16",
+      "revealAfter": "2026-07-03T12:00:00",
+      "city": "Seattle",
+      "sideA": {
+        "real": "🇺🇸 USA",
+        "safe": "🇺🇸 USA/Bosnia-Herzegovina 🇧🇦",
+        "revealAfter": "2026-07-03T12:00:00"
+      },
+      "sideB": {
+        "real": "Belgium 🇧🇪",
+        "safe": "🇧🇪 Belgium/Senegal 🇸🇳",
+        "revealAfter": "2026-07-03T08:00:00"
+      }
+    },
+    {
+      "iso": "2026-07-08T02:00:00",
+      "dateStr": "8 July",
+      "datetime": "8 July - 02:00 AEST",
+      "fixture": "🇦🇷 Argentina v Egypt 🇪🇬",
+      "safeFixture": "🇦🇷 Argentina/Cape Verde 🇨🇻 vs 🇦🇺 Australia/Egypt 🇪🇬",
+      "broadcast": "ITV",
+      "broadcastConfirmed": true,
+      "stage": "Round of 16",
+      "revealAfter": "2026-07-05T10:00:00",
+      "city": "Atlanta",
+      "sideA": {
+        "real": "🇦🇷 Argentina",
+        "safe": "🇦🇷 Argentina/Cape Verde 🇨🇻",
+        "revealAfter": "2026-07-05T10:00:00"
+      },
+      "sideB": {
+        "real": "Egypt 🇪🇬",
+        "safe": "🇦🇺 Australia/Egypt 🇪🇬",
+        "revealAfter": "2026-07-05T06:00:00"
+      }
+    },
+    {
+      "iso": "2026-07-08T06:00:00",
+      "dateStr": "8 July",
+      "datetime": "8 July - 06:00 AEST",
+      "fixture": "🇨🇭 Switzerland v Colombia 🇨🇴",
+      "safeFixture": "🇨🇭 Switzerland/Algeria 🇩🇿 vs 🇨🇴 Colombia/Ghana 🇬🇭",
+      "broadcast": "ITV",
+      "broadcastConfirmed": true,
+      "stage": "Round of 16",
+      "revealAfter": "2026-07-05T13:30:00",
+      "city": "Vancouver",
+      "sideA": {
+        "real": "🇨🇭 Switzerland",
+        "safe": "🇨🇭 Switzerland/Algeria 🇩🇿",
+        "revealAfter": "2026-07-04T15:00:00"
+      },
+      "sideB": {
+        "real": "Colombia 🇨🇴",
+        "safe": "🇨🇴 Colombia/Ghana 🇬🇭",
+        "revealAfter": "2026-07-05T13:30:00"
+      }
+    },
+    {
+      "iso": "2026-07-10T06:00:00",
+      "dateStr": "10 July",
+      "datetime": "10 July - 06:00 AEST",
+      "fixture": "🇵🇾 Paraguay/France 🇫🇷 vs 🇨🇦 Canada/Morocco 🇲🇦",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Quarterfinal",
+      "city": "Boston",
+      "revealAfter": "2026-07-06T09:00:00",
+      "sideA": {
+        "safe": "🇵🇾 Paraguay/France 🇫🇷",
+        "revealAfter": "2026-07-06T09:00:00"
+      },
+      "sideB": {
+        "safe": "🇨🇦 Canada/Morocco 🇲🇦",
+        "revealAfter": "2026-07-06T05:00:00"
+      }
+    },
+    {
+      "iso": "2026-07-11T05:00:00",
+      "dateStr": "11 July",
+      "datetime": "11 July - 05:00 AEST",
+      "fixture": "🇵🇹 Portugal/Spain 🇪🇸 vs 🇺🇸 USA/Belgium 🇧🇪",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Quarterfinal",
+      "city": "Los Angeles",
+      "revealAfter": "2026-07-08T12:00:00",
+      "sideA": {
+        "safe": "🇵🇹 Portugal/Spain 🇪🇸",
+        "revealAfter": "2026-07-08T07:00:00"
+      },
+      "sideB": {
+        "safe": "🇺🇸 USA/Belgium 🇧🇪",
+        "revealAfter": "2026-07-08T12:00:00"
+      }
+    },
+    {
+      "iso": "2026-07-12T07:00:00",
+      "dateStr": "12 July",
+      "datetime": "12 July - 07:00 AEST",
+      "fixture": "🇧🇷 Brazil/Norway 🇳🇴 vs 🇲🇽 Mexico/England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Quarterfinal",
+      "city": "Miami",
+      "revealAfter": "2026-07-07T12:00:00",
+      "sideA": {
+        "safe": "🇧🇷 Brazil/Norway 🇳🇴",
+        "revealAfter": "2026-07-07T08:00:00"
+      },
+      "sideB": {
+        "safe": "🇲🇽 Mexico/England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "revealAfter": "2026-07-07T12:00:00"
+      }
+    },
+    {
+      "iso": "2026-07-12T11:00:00",
+      "dateStr": "12 July",
+      "datetime": "12 July - 11:00 AEST",
+      "fixture": "🇦🇷 Argentina/Egypt 🇪🇬 vs 🇨🇭 Switzerland/Colombia 🇨🇴",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Quarterfinal",
+      "city": "Kansas City",
+      "revealAfter": "2026-07-09T08:00:00",
+      "sideA": {
+        "safe": "🇦🇷 Argentina/Egypt 🇪🇬",
+        "revealAfter": "2026-07-09T04:00:00"
+      },
+      "sideB": {
+        "safe": "🇨🇭 Switzerland/Colombia 🇨🇴",
+        "revealAfter": "2026-07-09T08:00:00"
+      }
+    },
+    {
+      "iso": "2026-07-15T05:00:00",
+      "dateStr": "15 July",
+      "datetime": "15 July - 05:00 AEST",
+      "fixture": "Winner (Quarterfinal 1) vs Winner (Quarterfinal 2)",
+      "broadcast": "BOTH",
+      "broadcastConfirmed": true,
+      "stage": "Semifinal",
+      "revealAfter": "2026-07-12T07:00:00",
+      "sideA": {
+        "safe": "Winner (Quarterfinal 1)",
+        "revealAfter": "2026-07-11T08:00:00"
+      },
+      "sideB": {
+        "safe": "Winner (Quarterfinal 2)",
+        "revealAfter": "2026-07-12T07:00:00"
+      }
+    },
+    {
+      "iso": "2026-07-16T05:00:00",
+      "dateStr": "16 July",
+      "datetime": "16 July - 05:00 AEST",
+      "fixture": "Winner (Quarterfinal 3) vs Winner (Quarterfinal 4)",
+      "broadcast": "BOTH",
+      "broadcastConfirmed": true,
+      "stage": "Semifinal",
+      "revealAfter": "2026-07-13T13:00:00",
+      "sideA": {
+        "safe": "Winner (Quarterfinal 3)",
+        "revealAfter": "2026-07-13T09:00:00"
+      },
+      "sideB": {
+        "safe": "Winner (Quarterfinal 4)",
+        "revealAfter": "2026-07-13T13:00:00"
+      }
+    },
+    {
+      "iso": "2026-07-19T07:00:00",
+      "dateStr": "19 July",
+      "datetime": "19 July - 07:00 AEST",
+      "fixture": "Loser (Semifinal 1) vs Loser (Semifinal 2)",
+      "broadcast": "BBC",
+      "broadcastConfirmed": false,
+      "stage": "Third-Place Playoff",
+      "revealAfter": "2026-07-17T07:00:00",
+      "sideA": {
+        "safe": "Loser (Semifinal 1)",
+        "revealAfter": "2026-07-16T07:00:00"
+      },
+      "sideB": {
+        "safe": "Loser (Semifinal 2)",
+        "revealAfter": "2026-07-17T07:00:00"
+      }
+    },
+    {
+      "iso": "2026-07-20T05:00:00",
+      "dateStr": "20 July",
+      "datetime": "20 July - 05:00 AEST",
+      "fixture": "Winner (Semifinal 1) vs Winner (Semifinal 2)",
+      "broadcast": "BOTH",
+      "broadcastConfirmed": true,
+      "stage": "Final",
+      "revealAfter": "2026-07-17T07:00:00",
+      "sideA": {
+        "safe": "Winner (Semifinal 1)",
+        "revealAfter": "2026-07-16T07:00:00"
+      },
+      "sideB": {
+        "safe": "Winner (Semifinal 2)",
+        "revealAfter": "2026-07-17T07:00:00"
+      }
+    }
+  ]
+}
