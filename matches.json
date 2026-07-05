@@ -890,63 +890,67 @@
       "stage": "Round of 16"
     },
     {
-      "iso": "2026-07-10T05:00:00",
+      "iso": "2026-07-10T06:00:00",
       "dateStr": "10 July",
-      "datetime": "10 July - 05:00 AEST",
+      "datetime": "10 July - 06:00 AEST",
       "fixture": "🇵🇾 Paraguay/France 🇫🇷 vs 🇨🇦 Canada/Morocco 🇲🇦",
       "broadcast": "BBC",
       "broadcastConfirmed": false,
-      "stage": "Quarterfinal"
+      "stage": "Quarterfinal",
+      "city": "Boston"
     },
     {
-      "iso": "2026-07-11T11:00:00",
+      "iso": "2026-07-11T05:00:00",
       "dateStr": "11 July",
-      "datetime": "11 July - 11:00 AEST",
-      "fixture": "🇧🇷 Brazil/Norway 🇳🇴 vs 🇲🇽 Mexico/England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "broadcast": "ITV",
-      "broadcastConfirmed": false,
-      "stage": "Quarterfinal"
-    },
-    {
-      "iso": "2026-07-12T08:00:00",
-      "dateStr": "12 July",
-      "datetime": "12 July - 08:00 AEST",
+      "datetime": "11 July - 05:00 AEST",
       "fixture": "🇵🇹 Portugal/Spain 🇪🇸 vs 🇺🇸 USA/Belgium 🇧🇪",
       "broadcast": "BBC",
       "broadcastConfirmed": false,
-      "stage": "Quarterfinal"
+      "stage": "Quarterfinal",
+      "city": "Los Angeles"
     },
     {
-      "iso": "2026-07-12T09:00:00",
+      "iso": "2026-07-12T07:00:00",
       "dateStr": "12 July",
-      "datetime": "12 July - 09:00 AEST",
+      "datetime": "12 July - 07:00 AEST",
+      "fixture": "🇧🇷 Brazil/Norway 🇳🇴 vs 🇲🇽 Mexico/England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "broadcast": "ITV",
+      "broadcastConfirmed": false,
+      "stage": "Quarterfinal",
+      "city": "Miami"
+    },
+    {
+      "iso": "2026-07-12T11:00:00",
+      "dateStr": "12 July",
+      "datetime": "12 July - 11:00 AEST",
       "fixture": "🇦🇷 Argentina/Egypt 🇪🇬 vs 🇨🇭 Switzerland/Colombia 🇨🇴",
       "broadcast": "ITV",
       "broadcastConfirmed": false,
-      "stage": "Quarterfinal"
+      "stage": "Quarterfinal",
+      "city": "Kansas City"
     },
     {
-      "iso": "2026-07-15T11:00:00",
+      "iso": "2026-07-15T05:00:00",
       "dateStr": "15 July",
-      "datetime": "15 July - 11:00 AEST",
+      "datetime": "15 July - 05:00 AEST",
       "fixture": "Winner (Quarterfinal 1) vs Winner (Quarterfinal 2)",
-      "broadcast": "BBC",
-      "broadcastConfirmed": false,
+      "broadcast": "BOTH",
+      "broadcastConfirmed": true,
       "stage": "Semifinal"
     },
     {
-      "iso": "2026-07-16T11:00:00",
+      "iso": "2026-07-16T05:00:00",
       "dateStr": "16 July",
-      "datetime": "16 July - 11:00 AEST",
+      "datetime": "16 July - 05:00 AEST",
       "fixture": "Winner (Quarterfinal 3) vs Winner (Quarterfinal 4)",
-      "broadcast": "ITV",
-      "broadcastConfirmed": false,
+      "broadcast": "BOTH",
+      "broadcastConfirmed": true,
       "stage": "Semifinal"
     },
     {
-      "iso": "2026-07-19T10:00:00",
+      "iso": "2026-07-19T07:00:00",
       "dateStr": "19 July",
-      "datetime": "19 July - 10:00 AEST",
+      "datetime": "19 July - 07:00 AEST",
       "fixture": "Loser (Semifinal 1) vs Loser (Semifinal 2)",
       "broadcast": "BBC",
       "broadcastConfirmed": false,
