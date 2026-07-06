@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T09:24:14.856Z",
+  "updated": "2026-07-06T04:42:28.177Z",
   "matches": [
     {
       "iso": "2026-06-12T05:00:00",
@@ -911,9 +911,9 @@
       "venue": "MetLife Stadium"
     },
     {
-      "iso": "2026-07-06T10:00:00",
+      "iso": "2026-07-06T11:00:00",
       "dateStr": "6 July",
-      "datetime": "6 July - 10:00 AEST",
+      "datetime": "6 July - 11:00 AEST",
       "fixture": "🇲🇽 Mexico v England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "safeFixture": "🇲🇽 Mexico/Ecuador 🇪🇨 vs 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England/DR Congo 🇨🇩",
       "broadcast": "BBC",
@@ -1070,20 +1070,23 @@
       "iso": "2026-07-12T07:00:00",
       "dateStr": "12 July",
       "datetime": "12 July - 07:00 AEST",
-      "fixture": "🇧🇷 Brazil/Norway 🇳🇴 vs 🇲🇽 Mexico/England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "fixture": "🇳🇴 Norway v England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "broadcast": "ITV",
       "broadcastConfirmed": false,
       "stage": "Quarterfinal",
-      "city": "Miami",
+      "city": "Miami Gardens, Florida",
       "revealAfter": "2026-07-07T12:00:00",
       "sideA": {
         "safe": "🇧🇷 Brazil/Norway 🇳🇴",
-        "revealAfter": "2026-07-07T08:00:00"
+        "revealAfter": "2026-07-07T08:00:00",
+        "real": "🇳🇴 Norway"
       },
       "sideB": {
         "safe": "🇲🇽 Mexico/England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "revealAfter": "2026-07-07T12:00:00"
-      }
+        "revealAfter": "2026-07-07T12:00:00",
+        "real": "England 🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      },
+      "venue": "Hard Rock Stadium"
     },
     {
       "iso": "2026-07-12T11:00:00",
@@ -1132,7 +1135,7 @@
       "stage": "Semifinal",
       "revealAfter": "2026-07-13T13:00:00",
       "sideA": {
-        "safe": "Winner (Quarterfinal 3)",
+        "safe": "🇳🇴 Norway/England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "revealAfter": "2026-07-13T09:00:00"
       },
       "sideB": {
