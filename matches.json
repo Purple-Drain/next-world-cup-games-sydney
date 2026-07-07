@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T04:42:28.177Z",
+  "updated": "2026-07-07T04:18:33.924Z",
   "matches": [
     {
       "iso": "2026-06-12T05:00:00",
@@ -1051,20 +1051,23 @@
       "iso": "2026-07-11T05:00:00",
       "dateStr": "11 July",
       "datetime": "11 July - 05:00 AEST",
-      "fixture": "🇵🇹 Portugal/Spain 🇪🇸 vs 🇺🇸 USA/Belgium 🇧🇪",
+      "fixture": "🇪🇸 Spain v Belgium 🇧🇪",
       "broadcast": "BBC",
       "broadcastConfirmed": false,
       "stage": "Quarterfinal",
-      "city": "Los Angeles",
+      "city": "Inglewood, California",
       "revealAfter": "2026-07-08T12:00:00",
       "sideA": {
         "safe": "🇵🇹 Portugal/Spain 🇪🇸",
-        "revealAfter": "2026-07-08T07:00:00"
+        "revealAfter": "2026-07-08T07:00:00",
+        "real": "🇪🇸 Spain"
       },
       "sideB": {
         "safe": "🇺🇸 USA/Belgium 🇧🇪",
-        "revealAfter": "2026-07-08T12:00:00"
-      }
+        "revealAfter": "2026-07-08T12:00:00",
+        "real": "Belgium 🇧🇪"
+      },
+      "venue": "SoFi Stadium"
     },
     {
       "iso": "2026-07-12T07:00:00",
@@ -1121,7 +1124,7 @@
         "revealAfter": "2026-07-11T08:00:00"
       },
       "sideB": {
-        "safe": "Winner (Quarterfinal 2)",
+        "safe": "🇪🇸 Spain/Belgium 🇧🇪",
         "revealAfter": "2026-07-12T07:00:00"
       }
     },
