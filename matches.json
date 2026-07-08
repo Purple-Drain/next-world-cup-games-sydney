@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T04:18:33.924Z",
+  "updated": "2026-07-08T03:48:10.751Z",
   "matches": [
     {
       "iso": "2026-06-12T05:00:00",
@@ -1095,20 +1095,23 @@
       "iso": "2026-07-12T11:00:00",
       "dateStr": "12 July",
       "datetime": "12 July - 11:00 AEST",
-      "fixture": "🇦🇷 Argentina/Egypt 🇪🇬 vs 🇨🇭 Switzerland/Colombia 🇨🇴",
+      "fixture": "🇦🇷 Argentina v Switzerland 🇨🇭",
       "broadcast": "ITV",
       "broadcastConfirmed": false,
       "stage": "Quarterfinal",
-      "city": "Kansas City",
+      "city": "Kansas City, Missouri",
       "revealAfter": "2026-07-09T08:00:00",
       "sideA": {
         "safe": "🇦🇷 Argentina/Egypt 🇪🇬",
-        "revealAfter": "2026-07-09T04:00:00"
+        "revealAfter": "2026-07-09T04:00:00",
+        "real": "🇦🇷 Argentina"
       },
       "sideB": {
         "safe": "🇨🇭 Switzerland/Colombia 🇨🇴",
-        "revealAfter": "2026-07-09T08:00:00"
-      }
+        "revealAfter": "2026-07-09T08:00:00",
+        "real": "Switzerland 🇨🇭"
+      },
+      "venue": "GEHA Field at Arrowhead Stadium"
     },
     {
       "iso": "2026-07-15T05:00:00",
@@ -1142,7 +1145,7 @@
         "revealAfter": "2026-07-13T09:00:00"
       },
       "sideB": {
-        "safe": "Winner (Quarterfinal 4)",
+        "safe": "🇦🇷 Argentina/Switzerland 🇨🇭",
         "revealAfter": "2026-07-13T13:00:00"
       }
     },
