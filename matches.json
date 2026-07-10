@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T09:41:54.225Z",
+  "updated": "2026-07-10T04:18:16.317Z",
   "matches": [
     {
       "iso": "2026-06-12T05:00:00",
@@ -1124,7 +1124,8 @@
       "revealAfter": "2026-07-12T07:00:00",
       "sideA": {
         "safe": "🇫🇷 France/Morocco 🇲🇦",
-        "revealAfter": "2026-07-11T08:00:00"
+        "revealAfter": "2026-07-11T08:00:00",
+        "real": "🇫🇷 France"
       },
       "sideB": {
         "safe": "🇪🇸 Spain/Belgium 🇧🇪",
