@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T03:45:24.004Z",
+  "updated": "2026-07-11T08:16:06.265Z",
   "matches": [
     {
       "iso": "2026-06-12T05:00:00",
@@ -1131,7 +1131,9 @@
         "safe": "🇪🇸 Spain/Belgium 🇧🇪",
         "revealAfter": "2026-07-12T07:00:00",
         "real": "Spain 🇪🇸"
-      }
+      },
+      "venue": "AT&T Stadium",
+      "city": "Arlington, Texas"
     },
     {
       "iso": "2026-07-16T05:00:00",
