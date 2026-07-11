@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T04:18:16.317Z",
+  "updated": "2026-07-11T03:45:24.004Z",
   "matches": [
     {
       "iso": "2026-06-12T05:00:00",
@@ -1117,7 +1117,7 @@
       "iso": "2026-07-15T05:00:00",
       "dateStr": "15 July",
       "datetime": "15 July - 05:00 AEST",
-      "fixture": "Winner (Quarterfinal 1) vs Winner (Quarterfinal 2)",
+      "fixture": "🇫🇷 France v Spain 🇪🇸",
       "broadcast": "BOTH",
       "broadcastConfirmed": true,
       "stage": "Semifinal",
@@ -1129,7 +1129,8 @@
       },
       "sideB": {
         "safe": "🇪🇸 Spain/Belgium 🇧🇪",
-        "revealAfter": "2026-07-12T07:00:00"
+        "revealAfter": "2026-07-12T07:00:00",
+        "real": "Spain 🇪🇸"
       }
     },
     {
@@ -1160,7 +1161,7 @@
       "stage": "Third-Place Playoff",
       "revealAfter": "2026-07-17T07:00:00",
       "sideA": {
-        "safe": "Loser (Semifinal 1)",
+        "safe": "🇫🇷 France/Spain 🇪🇸",
         "revealAfter": "2026-07-16T07:00:00"
       },
       "sideB": {
@@ -1178,7 +1179,7 @@
       "stage": "Final",
       "revealAfter": "2026-07-17T07:00:00",
       "sideA": {
-        "safe": "Winner (Semifinal 1)",
+        "safe": "🇫🇷 France/Spain 🇪🇸",
         "revealAfter": "2026-07-16T07:00:00"
       },
       "sideB": {
