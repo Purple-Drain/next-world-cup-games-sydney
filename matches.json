@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T08:16:06.265Z",
+  "updated": "2026-07-12T04:00:50.596Z",
   "matches": [
     {
       "iso": "2026-06-12T05:00:00",
@@ -1139,18 +1139,20 @@
       "iso": "2026-07-16T05:00:00",
       "dateStr": "16 July",
       "datetime": "16 July - 05:00 AEST",
-      "fixture": "Winner (Quarterfinal 3) vs Winner (Quarterfinal 4)",
+      "fixture": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England v Argentina 🇦🇷",
       "broadcast": "BOTH",
       "broadcastConfirmed": true,
       "stage": "Semifinal",
       "revealAfter": "2026-07-13T13:00:00",
       "sideA": {
         "safe": "🇳🇴 Norway/England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "revealAfter": "2026-07-13T09:00:00"
+        "revealAfter": "2026-07-13T09:00:00",
+        "real": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England"
       },
       "sideB": {
         "safe": "🇦🇷 Argentina/Switzerland 🇨🇭",
-        "revealAfter": "2026-07-13T13:00:00"
+        "revealAfter": "2026-07-13T13:00:00",
+        "real": "Argentina 🇦🇷"
       }
     },
     {
@@ -1167,7 +1169,7 @@
         "revealAfter": "2026-07-16T07:00:00"
       },
       "sideB": {
-        "safe": "Loser (Semifinal 2)",
+        "safe": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England/Argentina 🇦🇷",
         "revealAfter": "2026-07-17T07:00:00"
       }
     },
@@ -1185,7 +1187,7 @@
         "revealAfter": "2026-07-16T07:00:00"
       },
       "sideB": {
-        "safe": "Winner (Semifinal 2)",
+        "safe": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England/Argentina 🇦🇷",
         "revealAfter": "2026-07-17T07:00:00"
       }
     }
