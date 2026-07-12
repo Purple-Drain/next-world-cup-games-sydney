@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T04:00:50.596Z",
+  "updated": "2026-07-12T08:32:45.934Z",
   "matches": [
     {
       "iso": "2026-06-12T05:00:00",
@@ -1153,7 +1153,9 @@
         "safe": "🇦🇷 Argentina/Switzerland 🇨🇭",
         "revealAfter": "2026-07-13T13:00:00",
         "real": "Argentina 🇦🇷"
-      }
+      },
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta, Georgia"
     },
     {
       "iso": "2026-07-19T07:00:00",
