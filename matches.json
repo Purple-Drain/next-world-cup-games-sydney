@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T02:02:59.130Z",
+  "updated": "2026-07-15T04:06:15.764Z",
   "matches": [
     {
       "iso": "2026-06-12T05:00:00",
@@ -1168,7 +1168,8 @@
       "revealAfter": "2026-07-17T07:00:00",
       "sideA": {
         "safe": "🇫🇷 France/Spain 🇪🇸",
-        "revealAfter": "2026-07-16T07:00:00"
+        "revealAfter": "2026-07-16T07:00:00",
+        "real": "🇪🇸 Spain"
       },
       "sideB": {
         "safe": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England/Argentina 🇦🇷",
@@ -1186,7 +1187,8 @@
       "revealAfter": "2026-07-17T07:00:00",
       "sideA": {
         "safe": "🇫🇷 France/Spain 🇪🇸",
-        "revealAfter": "2026-07-16T07:00:00"
+        "revealAfter": "2026-07-16T07:00:00",
+        "real": "🇪🇸 Spain"
       },
       "sideB": {
         "safe": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England/Argentina 🇦🇷",
