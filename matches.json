@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T08:32:45.934Z",
+  "updated": "2026-07-15T02:02:59.130Z",
   "matches": [
     {
       "iso": "2026-06-12T05:00:00",
@@ -1118,7 +1118,7 @@
       "dateStr": "15 July",
       "datetime": "15 July - 05:00 AEST",
       "fixture": "🇫🇷 France v Spain 🇪🇸",
-      "broadcast": "BOTH",
+      "broadcast": "ITV",
       "broadcastConfirmed": true,
       "stage": "Semifinal",
       "revealAfter": "2026-07-12T07:00:00",
@@ -1140,7 +1140,7 @@
       "dateStr": "16 July",
       "datetime": "16 July - 05:00 AEST",
       "fixture": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England v Argentina 🇦🇷",
-      "broadcast": "BOTH",
+      "broadcast": "BBC",
       "broadcastConfirmed": true,
       "stage": "Semifinal",
       "revealAfter": "2026-07-13T13:00:00",
@@ -1163,7 +1163,7 @@
       "datetime": "19 July - 07:00 AEST",
       "fixture": "Loser (Semifinal 1) vs Loser (Semifinal 2)",
       "broadcast": "BBC",
-      "broadcastConfirmed": false,
+      "broadcastConfirmed": true,
       "stage": "Third-Place Playoff",
       "revealAfter": "2026-07-17T07:00:00",
       "sideA": {
