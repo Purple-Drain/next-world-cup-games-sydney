@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T03:41:30.417Z",
+  "updated": "2026-07-16T08:36:00.890Z",
   "matches": [
     {
       "iso": "2026-06-12T05:00:00",
@@ -1195,7 +1195,9 @@
         "safe": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England/Argentina 🇦🇷",
         "revealAfter": "2026-07-17T07:00:00",
         "real": "Argentina 🇦🇷"
-      }
+      },
+      "venue": "MetLife Stadium",
+      "city": "East Rutherford, New Jersey"
     }
   ]
 }
