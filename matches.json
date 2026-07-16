@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T04:06:15.764Z",
+  "updated": "2026-07-16T03:41:30.417Z",
   "matches": [
     {
       "iso": "2026-06-12T05:00:00",
@@ -1161,7 +1161,7 @@
       "iso": "2026-07-19T07:00:00",
       "dateStr": "19 July",
       "datetime": "19 July - 07:00 AEST",
-      "fixture": "Loser (Semifinal 1) vs Loser (Semifinal 2)",
+      "fixture": "🇪🇸 Spain v Argentina 🇦🇷",
       "broadcast": "BBC",
       "broadcastConfirmed": true,
       "stage": "Third-Place Playoff",
@@ -1173,14 +1173,15 @@
       },
       "sideB": {
         "safe": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England/Argentina 🇦🇷",
-        "revealAfter": "2026-07-17T07:00:00"
+        "revealAfter": "2026-07-17T07:00:00",
+        "real": "Argentina 🇦🇷"
       }
     },
     {
       "iso": "2026-07-20T05:00:00",
       "dateStr": "20 July",
       "datetime": "20 July - 05:00 AEST",
-      "fixture": "Winner (Semifinal 1) vs Winner (Semifinal 2)",
+      "fixture": "🇪🇸 Spain v Argentina 🇦🇷",
       "broadcast": "BOTH",
       "broadcastConfirmed": true,
       "stage": "Final",
@@ -1192,7 +1193,8 @@
       },
       "sideB": {
         "safe": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England/Argentina 🇦🇷",
-        "revealAfter": "2026-07-17T07:00:00"
+        "revealAfter": "2026-07-17T07:00:00",
+        "real": "Argentina 🇦🇷"
       }
     }
   ]
