@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T08:36:00.890Z",
+  "updated": "2026-07-17T04:25:38.000Z",
   "matches": [
     {
       "iso": "2026-06-12T05:00:00",
@@ -1175,7 +1175,9 @@
         "safe": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England/Argentina 🇦🇷",
         "revealAfter": "2026-07-17T07:00:00",
         "real": "Argentina 🇦🇷"
-      }
+      },
+      "venue": "Hard Rock Stadium",
+      "city": "Miami Gardens, Florida"
     },
     {
       "iso": "2026-07-20T05:00:00",
